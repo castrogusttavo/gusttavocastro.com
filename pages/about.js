@@ -55,7 +55,7 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Gusttavo Castro</strong>
+            <strong>Hey, I'm Gusttavo Castro</strong> {' '}
             I started as a software engineer in 2024, working with PHP and React.
           </Paragraph>
           <Paragraph>
