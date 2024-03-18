@@ -10,7 +10,7 @@ import items from '../data/projects'
 export async function getStaticProps() {
   const meta = {
     title: 'Projects // Gusttavo Castro',
-    tagline: 'Work. Hobby. Open Source.',
+    tagline: 'Work. Hobby. New Experiences.',
     image: '/static/images/projects-bw.jpg',
     primaryColor: 'cyan',
     secondaryColor: 'green',
@@ -64,7 +64,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I built. Some projects are still active, others have been discontinued.`
+  const description = `I'm obsessed with projects where <strong>user experience</strong> is the focus. Here you can navigate to <strong>${getTotalProjects()} different</strong> websistes, apps, and libraries I built. Some projects are still active, others have been discontinued - and I have new ones that are being sketched out.`
 
   return (
     <>
@@ -73,8 +73,8 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/projects" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro.com/projects" property="og:url" />
+        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

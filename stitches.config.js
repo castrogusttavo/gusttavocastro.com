@@ -28,7 +28,7 @@ export const {
     fonts: {
       body: 'Biotif, sans-serif',
       code: 'Fira Code, monospace',
-      heading: 'Neuzeit Grotesk Bold, sans-serif',
+      heading: 'Albert Sans, sans-serif',
     },
     space: {
       navHeightDesktop: '60px',
@@ -143,6 +143,13 @@ const globalStyles = globalCss({
       fontFamily: 'Neuzeit Grotesk Bold',
       src: `url("/static/font/NeuzeitGrotesk-Bold.woff2") format("woff2"),
         url("/static/font/NeuzeitGrotesk-Bold.woff") format("woff")`,
+      fontWeight: 'normal',
+      fontStyle: 'normal',
+    },
+    {
+      fontFamily: 'Albert Sasns',
+      src: `url("/static/font/AlbertSans.ttf") format("tff"),
+        url("/static/font/AlbertSans.ttf") format("ttf")`,
       fontWeight: 'normal',
       fontStyle: 'normal',
     },

@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
 import { ButtonPrimary } from '../components/ButtonPrimary'
-import Pronunciation from '../components/Pronunciation'
 import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
@@ -15,9 +14,9 @@ import downloadIcon from '../public/static/icons/download.json'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Zeno Rocha',
+    title: 'About // Gusttavo Castro',
     description:
-      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
+      "Gusttavo Castro is a Brazilian designer and programmer. Currently, he lives in Santos, São, where he is the Founder and CEO of Softis. His long-standing appreciation for building software and sharing knowledge has led him to explore various areas of technology. His passion for open source placed him among the top 2 programmers of the ‘Digital Literacy’ project at CNPq at the age of 18. Gusttavo has developed multiple software, mentored programmers, and studied User Experience at major big tech companies, such as Google and IBM.  ",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
     primaryColor: 'pink',
@@ -40,8 +39,8 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Zeno"
-            src="/static/images/zeno-bw.jpg"
+            alt="Gusttavo"
+            src="/static/images/gusttavo.png"
             width="336"
             height="336"
             placeholder="blur"
@@ -56,21 +55,19 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Zeno Rocha</strong>
-            <Pronunciation />
-            I started as a software engineer back in 2009, working with Flash.
+            <strong>Hey, I'm Gusttavo Castro</strong>
+            I started as a software engineer in 2024, working with PHP and React.
           </Paragraph>
           <Paragraph>
             I'm the <strong>Founder & CEO</strong> at
-            Resend. Before that, I was a VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally
-            from Brazil and now living in{' '}
-            <strong>San Francisco, California</strong> with my amazing wife and
-            beautiful daughter.
+            Softis. Before that, I was a UX Designer at Etec Drª Ruth Cardoso. I'm originally
+            from Brazil and live in{' '}
+            <strong>Santos, São Paulo</strong> with my amazing familly.
           </Paragraph>
           <Paragraph>
-            <strong>I love dark mode</strong>, open source, and side projects.
+            <strong>I love dark mode</strong>, user experience, and side projects.
             When I'm not working, I like running, watching movies, and{' '}
-            <strong>eating cheese</strong>.
+            <strong>eating coxinha</strong>.
           </Paragraph>
         </Section>
       </Container>
@@ -188,8 +185,8 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/about" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro.com/about" property="og:url" />
+        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}

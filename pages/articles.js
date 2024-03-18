@@ -21,13 +21,13 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
-    getPostBySlug('how-is-life-post-yc', featuredParams),
-    getPostBySlug('the-two-types-of-quality', featuredParams),
+    getPostBySlug('hello-world', featuredParams),
+    getPostBySlug('solar-painel', featuredParams),
   ]
 
   return {
     props: {
-      title: 'Articles // Zeno Rocha',
+      title: 'Articles // Gusttavo Castro',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'yellow',
@@ -73,7 +73,7 @@ function Articles(props) {
   }
 
   const { title, image } = props
-  const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`
+  const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote. You can read about software engineering, tech career and renewable energy in both Portuguese.`
 
   return (
     <>
@@ -82,8 +82,8 @@ function Articles(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/articles" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro.com/articles" property="og:url" />
+        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>
