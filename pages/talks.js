@@ -22,7 +22,7 @@ export async function getStaticProps() {
 
 function Talks(props) {
   const renderFeatured = () => {
-    const featured = ['NEJS Conf', 'Nordic.JS', 'SFHTML5']
+    const featured = ['User Experience', 'Hands-on Figma', 'Pithc - Startup ']
 
     return items
       .map(item => {
