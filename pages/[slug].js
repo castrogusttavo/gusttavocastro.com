@@ -15,7 +15,7 @@ function Post(props) {
   const date = new Date(props.date).toISOString()
   const image = props.image
     ? `https://gusttavocastro.com${props.image}`
-    : 'https://zenorocha.com/static/images/home-opt.jpg'
+    : 'https://gusttavocastro.com/static/images/home-opt.jpg'
 
   return (
     <>
