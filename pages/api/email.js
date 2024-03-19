@@ -5,18 +5,18 @@ const resend = new Resend('re_123456789');
 
 export default async function sendEmail(req, res) {
   try {
-    const { name, email, message } = req.body; // Desestruturação dos campos específicos
+    const { name, email, message } = req.body;
 
     await resend.sendEmail({
       from: 'Gusttavo <onboarding@resend.dev>',
       to: 'castrogusttavo.dev@gmail.com',
-      replyTo: email, // Usando o email diretamente do req.body
-      subject: `${name} - via gusttavocastro.com`, // Usando o nome diretamente do req.body
-      html: EmailTemplate({ name, email, message }), // Passando os campos específicos para EmailTemplate
+      replyTo: email,
+      subject: `${name} - via gusttavocastro.com`,
+      html: EmailTemplate({ name, email, message }),
     });
 
     res.status(200).json({ message: 'Email sent' });
   } catch (e) {
-    res.status(200).json({ message: 'Email sent' });
+    res.status(500).json({ message: e.message });
   }
 }
