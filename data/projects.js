@@ -50,7 +50,7 @@ const items = [
       },
       {
         title: 'Board',
-        url: 'https://https://next14-board-tutorial.vercel.app/',
+        url: 'https://next14-board-tutorial.vercel.app/',
         icon: 'palette',
         active: true,
       },
@@ -69,7 +69,7 @@ const items = [
       {
         title: 'NVEC',
         description: 'Managing Personal Finances Smartly',
-        url: 'https://https://github.com/castrogusttavo/nvec_tcc',
+        url: 'https://github.com/castrogusttavo/nvec_tcc',
         icon: 'clipboard',
         stats: 'TCC',
         icon: 'clipboard-js',
