@@ -9,7 +9,7 @@ const items = [
     jobTitle: 'Software Engineer',
     company: 'CNPq',
     companyUrl: 'https://ids.saude360.app.br/entrada.php',
-    startDate: '2024-01-02',
+    startDate: '2024-02-01',
     location: 'São Paulo, São Paulo',
   },
   {
