@@ -1,31 +1,32 @@
 ---
 title: Hello world
-description: "Era terça-feira, dia 5 de abril. Entro na sala da Uniriotec Consultoria (Empresa Jr. da Unirio), no meio de uma entusiasmada conversa entre Victor Fontes, Arlindo Pereira, Tiago Veloso e Pedro Marins."
-lang: pt-BR
-date: "2011-04-12"
+description: "Era uma noite de sexta-feira, dia 15 de março. Adentro ao meu espaço de trabalho, repleto de entusiasmo e determinação para criar algo novo: meu novo portfólio."
+image: /static/images/gusttavo.jpg
+date: "2024-01-15"
 ---
 
-Era terça-feira, dia 5 de abril.
+Era uma noite de sexta-feira, dia 15 de março.
 
-Entro na sala da Uniriotec Consultoria (Empresa Jr. da Unirio), no meio de uma entusiasmada conversa entre [Victor Fontes](http://victorfontes.com/), [Arlindo Pereira](http://nighto.net/), [Tiago Veloso](http://tiagoveloso.com/) e [Pedro Marins](http://pedromarins.com/).
+Adentro ao meu espaço de trabalho, repleto de entusiasmo e determinação para criar algo novo... quando recebo o desafio de refazer o meu portfólio - após uma conversa com [Gusttavo Brito](https://www.linkedin.com/in/gustavobrito06/), [Pedro Rocha](https://www.linkedin.com/in/castrogusttavo) e [Eduardo Santos](https://www.linkedin.com/in/eduardo-dos-santos-301a721a8/).
 
-O assunto era a difícil tarefa de manter a regularidade de postagem nos seus respectivos blogs pessoais.
+O assunto era a díficil tarefa de expor de forma elegante e concisa nossos projetos e trabalhos criados.
 
-Resolveram então fazer uma aposta, ou você mantém a regularidade de 2 posts por semana ou paga um engradado de cerveja.
+Resolveram então fazer uma aposta, ou você cria e mantém atualizado o seu portfólio ou paga um pack de energético.
 
 <!-- more -->
 
-Na hora tentaram me convencer a entrar na aposta também, mas é claro que rejeitei em meio há tantas coisas que já tenho que cumprir na minha rotina, seria loucura tentar manter um blog ainda.
+Na hora tentaram me convencer a entrar na aposta também, mas é claro que rejeitei em meio há tantas coisas que já tenho que cumprir na minha rotina, seria loucura tentar manter um portfólio ainda.
 
-Uma semana depois, durante a aula vejo o seguinte tweet:
+Uma semana depois, durante a aula vejo a seguinte mensagem:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="pt" dir="ltr"><a href="https://twitter.com/pedromarins">@pedromarins</a> <a href="https://twitter.com/Nighto">@Nighto</a> <a href="https://twitter.com/TiagoVeloso">@TiagoVeloso</a> <a href="https://twitter.com/4rrud4">@4rrud4</a> Temos que convencer o <a href="https://twitter.com/zenorocha">@zenorocha</a> a entrar agora</p>&mdash; Victor Fontes Costa (@victorfontes) <a href="https://twitter.com/victorfontes/status/57587464906342401">April 11, 2011</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> *@pedroka @eduardo Temos que convencer o @gusttavoCastro a entrar agora*
+>
+> — Gustavo Brito(@gbrito) <u>March 10,2024</u>
 
 Na hora, fiquei entre naquele difícil dilema: Assisto aula ou começo a desenvolver um agora mesmo?
 
 Se você me conhece, já imagina que fiquei naquilo a aula toda, depois cheguei em casa e ainda continuei trabalhando nos últimos retoques.
 
-Ainda tenho muita coisa para melhorar aqui, mas agora 01:19h entro oficialmente na aposta!
+Ainda tenho muita coisa para melhorar aqui, mas agora 03:19h entro oficialmente na aposta!
 
-#vamoquevamo
+#boracodar!
