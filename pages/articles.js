@@ -22,7 +22,7 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug('how-is-life-post-yc', featuredParams),
-    getPostBySlug('the-two-types-of-quality', featuredParams),
+    getPostBySlug('hello-world', featuredParams),
   ]
 
   return {
