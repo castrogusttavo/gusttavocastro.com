@@ -35,6 +35,12 @@ const items = [
         stats: 'Startup',
       },
       {
+        title: 'Chatbot AI',
+        description: 'Using Vercel SDK to create a chat bot.',
+        url: 'https://chat-1b3zeml31-castrogusttavos-projects.vercel.app/',
+        active: true,
+      },
+      {
         title: 'Teste IDs',
         url: 'https://ids.saude360.app.br/entrada.php',
         icon: 'palette',
