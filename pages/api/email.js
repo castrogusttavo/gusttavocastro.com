@@ -11,7 +11,7 @@ export default async function sendEmail(req, res) {
       from: 'Gusttavo <onboarding@resend.dev>',
       to: 'castrogusttavo.dev@gmail.com',
       replyTo: email,
-      subject: `${name} - via gusttavocastro.com`,
+      subject: `${name} - via gusttavocastro-com.vercel.app`,
       html: EmailTemplate({ name, email, message }),
     });
 

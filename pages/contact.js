@@ -29,7 +29,7 @@ function Contact(props) {
 
     try {
       const isProd = process.env.NODE_ENV === 'production'
-      const base = isProd ? 'https://gusttavocastro.com' : 'http://localhost:3000'
+      const base = isProd ? 'https://gusttavocastro-com.vercel.app' : 'http://localhost:3000'
 
       await fetch(`${base}/api/email`, {
         method: 'POST',
@@ -58,8 +58,8 @@ function Contact(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro.com/contact" property="og:url" />
-        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro-com.vercel.app/contact" property="og:url" />
+        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
       </Head>
 
       <Box>

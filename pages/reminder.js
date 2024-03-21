@@ -27,8 +27,8 @@ function Reminder(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        <meta content="https://gusttavocastro.com/reminder" property="og:url" />
-        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro-com.vercel.app/reminder" property="og:url" />
+        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
       </Head>
 
       <Box css={{ textAlign: 'justify' }}>

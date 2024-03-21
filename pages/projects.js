@@ -73,8 +73,8 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro.com/projects" property="og:url" />
-        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro-com.vercel.app/projects" property="og:url" />
+        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

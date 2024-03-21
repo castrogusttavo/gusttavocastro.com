@@ -53,8 +53,8 @@ function Uses(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro.com/uses" property="og:url" />
-        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro-com.vercel.app/uses" property="og:url" />
+        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
       </Head>
 
       <p dangerouslySetInnerHTML={{ __html: description }} />

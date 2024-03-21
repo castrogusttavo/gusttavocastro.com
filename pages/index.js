@@ -27,8 +27,8 @@ export default function Index(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        <meta content="https://gusttavocastro.com" property="og:url" />
-        <meta content={`https://gusttavocastro.com${image}`} property="og:image" />
+        <meta content="https://gusttavocastro-com.vercel.app" property="og:url" />
+        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
