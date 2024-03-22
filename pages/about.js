@@ -16,8 +16,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Gusttavo Castro',
     description:
-      "Gusttavo Castro is a Brazilian designer and programmer. Currently, he lives in Santos, São Paulo, where he is the founder and CEO of Softis. His long-standing appreciation for software construction and knowledge sharing has led him to explore various areas of technology. His passion for coding and eagerness to learn placed him among the top 4 programmers of the ‘Digital Literacy’ project at CNPq at the age of 18. Gusttavo has developed several software programs, mentored programmers, and studied User Experience at major tech companies like Google and IBM.",
-    tagline: 'Create. Share. Repeat.',
+      "Gusttavo Castro is a Brazilian designer and programmer. He currently resides in Santos, São Paulo, where he is the founder and CEO. His dedication to knowledge sharing has led him to delve into various technological fields. His passion for programming and his eagerness to learn have made him one of the programmers of the 'Digital Literacy' project at CNPq. Gusttavo has developed multiple software programs, delivered lectures, and studied User Experience at major tech companies such as Google and IBM.",
     image: '/static/images/about-bw.jpg',
     primaryColor: 'pink',
     secondaryColor: 'purple',
