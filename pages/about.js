@@ -103,7 +103,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/gusttavo.png"
+            href="/static/images/gusttavo.jpg"
             style={btnStyle}
             onClick={downloadHeadshot}
             onMouseEnter={() => downloadRef.current?.play()}
