@@ -35,23 +35,29 @@ const items = [
         stats: 'Startup',
       },
       {
+        title: 'Therha',
+        description: 'Next generation of Operating System',
+        icon: 'palette',
+        stats: 'Startup',
+        icon: 'dracula-pro',
+        active: true,
+      },
+      {
         title: 'Chatbot AI',
         description: 'Using Vercel SDK to create a chat bot.',
-        url: 'https://chat-1b3zeml31-castrogusttavos-projects.vercel.app/',
+        url: 'https://chat-ai-nu-one.vercel.app/',
+        active: true,
+      },
+      {
+        title: 'Pass-in-web',
+        description: 'Project at NLW Unite - React.js and Node.js',
+        url: 'https://github.com/castrogusttavo/pass-in-web',
         active: true,
       },
       {
         title: 'Teste IDs',
         url: 'https://ids.saude360.app.br/entrada.php',
         icon: 'palette',
-        active: true,
-      },
-      {
-        title: 'Therha',
-        description: 'Next generation of Operating System',
-        icon: 'palette',
-        stats: 'Startup',
-        icon: 'dracula-pro',
         active: true,
       },
       {
