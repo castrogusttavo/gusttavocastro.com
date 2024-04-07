@@ -50,7 +50,7 @@ const items = [
       },
       {
         title: 'Pass-in-web',
-        description: 'Project at NLW Unite - React.js and Node.js',
+        description: 'Project at NLW Unite - React.js & Node.js',
         url: 'https://github.com/castrogusttavo/pass-in-web',
         active: true,
       },
