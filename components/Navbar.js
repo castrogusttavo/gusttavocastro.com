@@ -9,8 +9,8 @@ export default function Navbar() {
   const router = useRouter()
   const pages = [
     'About',
-    'Projects',
     'Articles',
+    'Projects',
     'Talks',
     'Uses',
     'Reminder',
