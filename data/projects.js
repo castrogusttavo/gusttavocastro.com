@@ -70,13 +70,13 @@ const items = [
   {
     year: '2023',
     projects: [
-      {
+/*       {
         title: 'ClinWare',
         description: 'Online Scheduling & EMR',
         active: true,
         icon: 'email',
         stats: 'TCC',
-      },
+      }, */
       {
         title: 'NVEC',
         description: 'Managing Personal Finances Smartly',
