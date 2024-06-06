@@ -72,9 +72,9 @@ const categories = [
         url: 'https://linear.app/',
       },
       {
-        title: 'Notion',
+        title: 'Obsidian',
         description: 'My personal OS with all the notes from all my projects.',
-        url: 'https://www.notion.so/',
+        url: 'https://obsidian.md/',
       },
       {
         title: 'Notion Calendar',
@@ -112,10 +112,10 @@ const categories = [
         url: 'https://github.com',
       },
       {
-        title: 'Firebase',
+        title: 'Mongo DB Atlas',
         description:
           'A no-brainer database and auth solution for side projects.',
-        url: 'https://firebase.google.com',
+        url: 'https://www.mongodb.com/cloud/atlas',
       },
       {
         title: 'Vercel',

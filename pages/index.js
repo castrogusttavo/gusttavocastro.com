@@ -65,4 +65,9 @@ const Home = styled(PostMain, {
   display: 'flex',
   margin: '0 auto',
   '@bp2': { width: 800 },
+
+  a: {
+    color: '$purple',
+    textDecorationColor: 'CurrentColor',
+  },
 })

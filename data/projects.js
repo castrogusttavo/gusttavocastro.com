@@ -42,15 +42,45 @@ const items = [
         active: true,
       },
       {
+        title: 'Pass-in-web',
+        description: 'Project at NLW Unite - React.js & Node.js',
+        url: 'https://pass-in-8l66a8hhm-castrogusttavos-projects.vercel.app/',
+        active: true,
+      },
+      {
         title: 'Chatbot AI',
         description: 'Using Vercel SDK to create a chat bot.',
         url: 'https://chat-ai-nu-one.vercel.app/',
         active: true,
       },
       {
-        title: 'Pass-in-web',
-        description: 'Project at NLW Unite - React.js & Node.js',
-        url: 'https://github.com/castrogusttavo/pass-in-web',
+        title: 'Design System',
+        description: 'Creating a design system for a Softis.',
+        url: 'https://castrogusttavo.github.io/design-system/?path=/docs/home--docs',
+        active: true,
+      },
+      {
+        title: 'Social Feed',
+        description: 'Blog for developers.',
+        url: 'https://github.com/castrogusttavo/socialFeed',
+        active: true,
+      },
+      {
+        title: 'Task Timer',
+        description: 'Task Timer for productivity.',
+        url: 'https://github.com/castrogusttavo/taskTimer',
+        active: true,
+      },
+      {
+        title: 'DT Money',
+        description: 'Project at Ignite - React.js',
+        url: 'https://github.com/castrogusttavo/dtMoney',
+        active: true,
+      },
+      {
+        title: 'Dev Store',
+        description: 'Project at Ignite - React.js',
+        url: 'https://github.com/castrogusttavo/devStore',
         active: true,
       },
       {
@@ -70,17 +100,10 @@ const items = [
   {
     year: '2023',
     projects: [
-/*       {
-        title: 'ClinWare',
-        description: 'Online Scheduling & EMR',
-        active: true,
-        icon: 'email',
-        stats: 'TCC',
-      }, */
       {
         title: 'NVEC',
         description: 'Managing Personal Finances Smartly',
-        url: 'https://github.com/castrogusttavo/nvec_tcc',
+        url: 'https://nvec.vercel.app',
         icon: 'gumroad',
         stats: 'TCC',
         active: true,
