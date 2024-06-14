@@ -62,19 +62,19 @@ const items = [
       {
         title: 'Social Feed',
         description: 'Blog for developers.',
-        url: 'https://github.com/castrogusttavo/socialFeed',
+        url: 'https://social-feed-ivory.vercel.app/',
         active: true,
       },
       {
         title: 'Task Timer',
         description: 'Task Timer for productivity.',
-        url: 'https://github.com/castrogusttavo/taskTimer',
+        url: 'https://task-timer-pied.vercel.app/',
         active: true,
       },
       {
         title: 'DT Money',
         description: 'Project at Ignite - React.js',
-        url: 'https://github.com/castrogusttavo/dtMoney',
+        url: 'https://dt-money-xi-weld.vercel.app/',
         active: true,
       },
       {
