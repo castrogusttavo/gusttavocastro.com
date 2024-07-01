@@ -29,14 +29,14 @@ const items = [
     projects: [
       {
         title: 'Softis',
-        description: 'Shaping the future, bit by bit.',
+        description: 'Innovating today for the byte of tomorrow',
         active: true,
         icon: 'dub',
         stats: 'Startup',
       },
       {
         title: 'Therha',
-        description: 'Next generation of Operating System',
+        description: `Next generation of social media for Devs`,
         icon: 'fig',
         stats: 'Startup',
         active: true,
@@ -55,7 +55,7 @@ const items = [
       },
       {
         title: 'Design System',
-        description: 'Creating a design system for a Softis.',
+        description: 'Creating a UI design system for coding.',
         icon: 'charm',
         stats: 'UI Components',
         url: 'https://castrogusttavo.github.io/design-system/?path=/docs/home--docs',
