@@ -3,25 +3,13 @@ const items = [
     year: 'Future...',
     projects: [
       {
-        title: 'Oxygen',
-        active: true,
-      },
-      {
         title: 'Stark',
         active: true,
       },
       {
         title: 'Pensamento do designer',
         active: true,
-      },
-      {
-        title: 'Vintage app music',
-        active: true,
-      },
-      {
-        title: 'Social media for devs',
-        active: true,
-      },
+      }
     ]
   },
   {
@@ -29,14 +17,14 @@ const items = [
     projects: [
       {
         title: 'Softis',
-        description: 'Innovating today for the byte of tomorrow',
+        description: 'Shaping the future, bit by bit.',
         active: true,
         icon: 'dub',
         stats: 'Startup',
       },
       {
         title: 'Therha',
-        description: `Next generation of social media for Devs`,
+        description: `Next generation of Social Media`,
         icon: 'fig',
         stats: 'Startup',
         active: true,
@@ -54,10 +42,10 @@ const items = [
         active: true,
       },
       {
-        title: 'Design System',
-        description: 'Creating a UI design system for coding.',
+        title: 'Andromeda',
+        description: 'Creating a design system for a Softis',
         icon: 'charm',
-        stats: 'UI Components',
+        stats: 'Design System',
         url: 'https://castrogusttavo.github.io/design-system/?path=/docs/home--docs',
         active: true,
       },
