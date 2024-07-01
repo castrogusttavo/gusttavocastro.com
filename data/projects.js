@@ -42,13 +42,6 @@ const items = [
         active: true,
       },
       {
-        title: 'NVEC Web',
-        description: 'Landing Page for NVEC',
-        icon: 'charm',
-        url: 'https://nvec.vercel.app/',
-        active: true,
-      },
-      {
         title: 'Pass-in-web',
         description: 'Project at NLW Unite - React.js & Node.js',
         url: 'https://pass-in-8l66a8hhm-castrogusttavos-projects.vercel.app/',
@@ -63,6 +56,8 @@ const items = [
       {
         title: 'Design System',
         description: 'Creating a design system for a Softis.',
+        icon: 'charm',
+        stats: 'UI Components',
         url: 'https://castrogusttavo.github.io/design-system/?path=/docs/home--docs',
         active: true,
       },
