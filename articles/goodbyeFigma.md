@@ -116,5 +116,3 @@ Em relação à segurança de dados, a política é semelhante à do Figma, gara
 </figure>
 
 Estou acompanhando as atualizações e observando como o Creatie irá se desenvolver. Embora esteja otimista, ainda não vejo uma grande mudança no cenário do design. Dependendo do preço a ser cobrado, uma migração para o Creatie pode ser considerada no futuro. Os desenvolvedores estão entusiasmados com o Dev Mode, que oferece scripts para frameworks de JavaScript (React, Vue). Agora, é aguardar para ver como o Figma reage a toda essa agitação. 👀
-
-#figma #ai #inovação #creatie
