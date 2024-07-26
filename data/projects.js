@@ -30,6 +30,26 @@ const items = [
         active: true,
       },
       {
+        title: 'Andromeda',
+        description: 'Creating a design system for a Softis',
+        icon: 'charm',
+        stats: 'Design System',
+        url: 'https://hello-softis.github.io/andromeda/',
+        active: true,
+      },
+      {
+        title: 'ESLint Config',
+        description: 'ESLint configuration used by Softis.',
+        url: 'https://www.npmjs.com/package/@hello.softis/eslint-config',
+        active: true,
+      },
+      {
+        title: 'Plann.er',
+        description: 'Project at NLW - React.js & Node.js',
+        url: '',
+        active: false,
+      },
+      {
         title: 'Pass-in-web',
         description: 'Project at NLW Unite - React.js & Node.js',
         url: 'https://pass-in-8l66a8hhm-castrogusttavos-projects.vercel.app/',
@@ -39,14 +59,6 @@ const items = [
         title: 'Chatbot AI',
         description: 'Using Vercel SDK to create a chat bot.',
         url: 'https://chat-ai-nu-one.vercel.app/',
-        active: true,
-      },
-      {
-        title: 'Andromeda',
-        description: 'Creating a design system for a Softis',
-        icon: 'charm',
-        stats: 'Design System',
-        url: 'https://castrogusttavo.github.io/design-system/?path=/docs/home--docs',
         active: true,
       },
       {
