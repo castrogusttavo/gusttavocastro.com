@@ -6,7 +6,7 @@ export default function ErrorMessage({ code }) {
   let description = "Something isn't right."
 
   if (code === 404) {
-    title = 'Bip...'
+    title = 'Bip... Bip...'
     description = "Houston, we have a problem."
   }
 
