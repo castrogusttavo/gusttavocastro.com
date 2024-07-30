@@ -29,9 +29,9 @@ function Contact(props) {
 
     try {
       const isProd = process.env.NODE_ENV === 'production'
-      const base = isProd ? 'https://gusttavocastro-com.vercel.app' : 'http://localhost:3000'
+      const base = isProd ? 'https://castrogusttavo.vercel.app' : 'http://localhost:3000'
 
-      await fetch(`${base}/api/email`, {
+      const response = await fetch(`${base}/api/email`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -41,11 +41,17 @@ function Contact(props) {
         }),
       })
 
-      setIsEmailSent(true)
+      if (response.ok) {
+        setIsEmailSent(true)
+      } else {
+        const data = await response.json();
+        console.error('Error response:', data);
+        setIsEmailSent(false)
+      }
       setShowToast(true)
     }
     catch(e) {
-      console.error(e)
+      console.error('Fetch error:', e)
       setIsEmailSent(false)
       setShowToast(true)
     }
@@ -58,8 +64,8 @@ function Contact(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro-com.vercel.app/contact" property="og:url" />
-        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
+        <meta content="https://castrogusttavo.vercel.app/contact" property="og:url" />
+        <meta content={`https://castrogusttavo.vercel.app${image}`} property="og:image" />
       </Head>
 
       <Box>

@@ -3,10 +3,10 @@ const categories = [
     name: 'Desk',
     items: [
       {
-        title: 'Acer Nitro 5',
+        title: 'Lenovo IdeaPad 3i',
         description:
-          'The Ryzen 7 chip is just amazing. Plus, 8 GB RAM and 512 GB storage.',
-        url: 'https://www.amazon.com.br/gp/product/B0CV8MDKPM/',
+          'The i5 chip is just amazing. Plus, 8 GB RAM and 256 GB storage.',
+        url: 'https://www.amazon.com.br/Notebook-Lenovo-Ultrafin-i5-10210U-82BS000GBR/dp/B09J7TBV8Q',
       },
       {
         title: 'Microsoft Ocean Plastic Mouse ',
@@ -44,6 +44,12 @@ const categories = [
         url: 'https://github.com/miguelsolorio/min-theme',
       },
       {
+        title: 'Symbols Icon Theme',
+        description:
+          'This is the icon theme I use in VSCode.',
+        url: 'https://github.com/miguelsolorio/vscode-symbols',
+      },
+      {
         title: 'Geist Mono',
         description:
           'I absolutely love this monospaced font because of all the ligatures.',
@@ -61,32 +67,9 @@ const categories = [
         url: 'https://figma.com',
       },
       {
-        title: 'Grammarly',
-        description:
-          'A must-have tool for non-native English speakers like me.',
-        url: 'https://grammarly.com/',
-      },
-      {
-        title: 'Linear',
-        description: 'A totally gorgeous issue tracker. Jira no more.',
-        url: 'https://linear.app/',
-      },
-      {
         title: 'Obsidian',
         description: 'My personal OS with all the notes from all my projects.',
         url: 'https://obsidian.md/',
-      },
-      {
-        title: 'Notion Calendar',
-        description:
-          'I use this to organize all my meetings and events.',
-        url: 'https://www.notion.so/pt-br/product/calendar',
-      },
-      {
-        title: 'Microsoft To Do',
-        description:
-          'My current choice for to-do lists and organizing personal tasks.',
-        url: 'https://to-do.office.com/tasks/pt-br',
       },
       {
         title: 'Spotify',
@@ -95,10 +78,10 @@ const categories = [
         url: 'https://www.spotify.com/',
       },
       {
-        title: 'Samsung Notes',
+        title: 'Excalidraw',
         description:
-          'I use this to take notes on my phone and tablet.',
-        url: 'https://www.samsung.com/br/apps/samsung-notes/',
+          'Virtual whiteboard for sketching hand-drawn like diagrams',
+        url: 'https://excalidraw.com/',
       }
     ],
   },

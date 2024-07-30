@@ -1,12 +1,16 @@
 import { Resend } from 'resend';
 import EmailTemplate from '../../components/EmailTemplate';
 
-const resend = new Resend('re_123456789');
+const resend = new Resend('re_P3YeHLCz_Q9agbUAnLLN3JkDQzBYRtNQB');
 
-export default async function sendEmail(req, res) {
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ message: 'Method not allowed' });
+  }
+
+  const { name, email, message } = req.body;
+
   try {
-    const { name, email, message } = req.body;
-
     await resend.sendEmail({
       from: 'Gusttavo <onboarding@resend.dev>',
       to: 'castrogusttavo.dev@gmail.com',
@@ -16,7 +20,8 @@ export default async function sendEmail(req, res) {
     });
 
     res.status(200).json({ message: 'Email sent' });
-  } catch (e) {
-    res.status(200).json({ message: 'Email sent' });
+  } catch (error) {
+    console.error('Error sending email:', error);
+    res.status(500).json({ message: 'Failed to send email', error: error.message });
   }
 }

@@ -21,7 +21,7 @@ async function getData(id) {
       reportRequests: [
         {
           viewId: '19337095',
-          dateRanges: [{ startDate: '2009-07-02', endDate: 'today' }],
+          dateRanges: [{ startDate: '2024-01-01', endDate: 'today' }],
           metrics: [{ expression: 'ga:pageviews' }],
           dimensions: [{ name: 'ga:pagePath' }],
           dimensionFilterClauses: [
