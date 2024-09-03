@@ -31,7 +31,7 @@ const items = [
         ],
       },
       {
-        title: 'Pithc - Startup',
+        title: 'Pitch - Startup',
         url: 'https://startups.com.br/pitch/',
         date: '2023-05-25',
         where: 'Etec Drª Ruth Cardoso, SP - Brazil',

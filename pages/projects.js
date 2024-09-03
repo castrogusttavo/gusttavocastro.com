@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['Therha', 'NVEC', 'Softis', 'Andromeda']
+    const featured = ['Softis', 'ESLint Config', 'Houston Icons', 'Andromeda']
 
     return items
       .map(item => {

@@ -19,14 +19,22 @@ const items = [
         title: 'Softis',
         description: 'Shaping the future, bit by bit.',
         active: true,
-        icon: 'dub',
+        icon: 'resend',
         stats: 'Startup',
+      },
+      {
+        title: 'Houston Icons',
+        description: 'Beautiful Icons for developers',
+        active: true,
+        icon: 'dub',
+        stats: 'Software',
+        url: 'https://houston-icons.vercel.app/',
       },
       {
         title: 'Therha',
         description: `Next generation of Social Media`,
         icon: 'fig',
-        stats: 'Startup',
+        stats: 'Software',
         active: true,
       },
       {
@@ -39,20 +47,10 @@ const items = [
       },
       {
         title: 'ESLint Config',
-        description: 'ESLint configuration used by Softis.',
+        description: 'ESLint configuration.',
+        icon: 'fig',
+        stats: 'Linter',
         url: 'https://www.npmjs.com/package/@hello.softis/eslint-config',
-        active: true,
-      },
-      {
-        title: 'Plann.er',
-        description: 'Project at NLW - React.js & Node.js',
-        url: '',
-        active: false,
-      },
-      {
-        title: 'Pass-in-web',
-        description: 'Project at NLW Unite - React.js & Node.js',
-        url: 'https://pass-in-8l66a8hhm-castrogusttavos-projects.vercel.app/',
         active: true,
       },
       {
@@ -62,33 +60,9 @@ const items = [
         active: true,
       },
       {
-        title: 'Social Feed',
-        description: 'Blog for developers.',
-        url: 'https://social-feed-ivory.vercel.app/',
-        active: true,
-      },
-      {
         title: 'Task Timer',
         description: 'Task Timer for productivity.',
         url: 'https://task-timer-pied.vercel.app/',
-        active: true,
-      },
-      {
-        title: 'DT Money',
-        description: 'Project at Ignite - React.js',
-        url: 'https://dt-money-xi-weld.vercel.app/',
-        active: true,
-      },
-      {
-        title: 'Dev Store',
-        description: 'Project at Ignite - React.js',
-        url: 'https://github.com/castrogusttavo/devStore',
-        active: true,
-      },
-      {
-        title: 'Teste IDs',
-        url: 'https://ids.saude360.app.br/entrada.php',
-        icon: 'palette',
         active: true,
       },
       {
