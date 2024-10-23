@@ -21,13 +21,12 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
-    getPostBySlug('the-two-types-of-quality', featuredParams),
-    getPostBySlug('how-is-life-post-yc', featuredParams),
+    getPostBySlug('hello-world', featuredParams),
   ]
 
   return {
     props: {
-      title: 'Articles // Zeno Rocha',
+      title: 'Articles // Gusttavo Castro',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'yellow',
