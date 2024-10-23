@@ -34,15 +34,15 @@ Observando as 99 respostas, percebeu-se um maior interesse por parte do público
 Em relação ao conhecimento da margem de preço de aquisição e instalação dos painéis, foi observado que mais de 50% dos participantes tem ciência do custo inicial (que varia de R$10.000,00 a R$20.000,00 para residências e pequenas empresas), e que se houvesse uma diminuição nesse valor, considerariam usar os painéis em suas casas, conforme os gráficos abaixo.
 
 <figure>
-  <img src="/static/img/solarPanel/solar-panel-graph.png" class="post-image-full" alt="IKEA Chair">
+  <img src="/static/img/solar-graph.png" class="post-image-full" alt="IKEA Chair">
 </figure>
 
 <figure>
-  <img src="/static/img/solarPanel/solar-panel-graph-1.png" class="post-image-full" alt="IKEA Chair">
+  <img src="/static/img/solar-graph-1.png" class="post-image-full" alt="IKEA Chair">
 </figure>
 
 <figure>
-  <img src="/static/img/solarPanel/solar-panel-graph-2.png" class="post-image-full" alt="IKEA Chair">
+  <img src="/static/img/solar-graph-2.png" class="post-image-full" alt="IKEA Chair">
 </figure>
 
 Analisando os resultados, comprovam-se as duas hipóteses iniciais, sobre o pouco conhecimento da população em relação ao uso da energia solar, e de que poucas pessoas utilizam a energia fotovoltaica por conta de seu alto preço e, sabendo das vantagens do uso da energia solar e com uma redução desse valor, o grande público consideraria a instalação de painéis solares em suas residências e empresas.
