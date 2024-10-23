@@ -18,7 +18,7 @@ const items = [
     company: 'CNPq',
     companyUrl: 'https://ids.saude360.app.br/entrada.php',
     startDate: '2024-02-01',
-    endDate: '2021-06-01',
+    endDate: '2024-06-01',
     location: 'Santos, Sao Paulo',
   },
 ]
