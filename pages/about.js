@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
 import { ButtonPrimary } from '../components/ButtonPrimary'
-import Pronunciation from '../components/Pronunciation'
 import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
@@ -15,9 +14,8 @@ import downloadIcon from '../public/static/icons/download.json'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Zeno Rocha',
-    description:
-      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
+    title: 'About // Gusttavo Castro',
+    description: 'Gusttavo Castro is a Brazilian Software Developer, founder and CEO of Softis, as well as the creator of the open-source icon library Houston Icons Pro. He currently works as a Software Developer at Adaptworks and resides in São Paulo, Brazil. His passion for programming and continuous learning has led him to explore various technological areas, creating innovative solutions. Gusttavo has developed several software projects, given talks, and specialized in ReactJS with companies such as Rocketseat and Meta, in addition to studying User Experience at Google and IBM.',
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
     primaryColor: 'pink',
@@ -40,7 +38,7 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Zeno"
+            alt="Gusttavo"
             src="/static/images/avatar.jpg"
             width="336"
             height="336"
@@ -56,21 +54,19 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Zeno Rocha</strong>
-            <Pronunciation />
-            I started as a software engineer back in 2009, working with Flash.
+            <strong>Hey, I'm Gusttavo Castro</strong>
+            I started as a software engineer in 2024, working with Next and Node.
           </Paragraph>
           <Paragraph>
             I'm the <strong>Founder & CEO</strong> at
-            Resend. Before that, I was a VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally
+            Softis. Before that, I was a Software Developer at Adaptworks and Frontend Developer at CNPq. I'm originally
             from Brazil and now living in{' '}
-            <strong>San Francisco, California</strong> with my amazing wife and
-            beautiful daughter.
+            <strong>Sao Paulo</strong> with my amazing family.
           </Paragraph>
           <Paragraph>
-            <strong>I love dark mode</strong>, open source, and side projects.
+            <strong>I love dark mode</strong>, developer experience, and side projects.
             When I'm not working, I like running, watching movies, and{' '}
-            <strong>eating cheese</strong>.
+            <strong>eating coxinha</strong>.
           </Paragraph>
         </Section>
       </Container>
