@@ -23,7 +23,7 @@ const items = [
         description: 'Create a course platform.',
         url: '#',
         active: true,
-        icon: '',
+        icon: 'fig',
         stats: 'Software',
       },
       {
