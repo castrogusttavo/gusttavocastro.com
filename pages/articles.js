@@ -21,7 +21,8 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
-    getPostBySlug('hello-world', featuredParams),
+    getPostBySlug('create-icon-library', featuredParams),
+    getPostBySlug('solar-panel', featuredParams),
   ]
 
   return {
