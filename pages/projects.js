@@ -9,7 +9,7 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projects // Zeno Rocha',
+    title: 'Projects // Gusttavo Castro',
     tagline: 'Work. Hobby. Open Source.',
     image: '/static/images/projects-bw.jpg',
     primaryColor: 'cyan',
@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['Dracula', 'Clipboard.js', 'Resend', 'React Email']
+    const featured = ['Softis', 'Carbon', 'Houston Icons', 'Andromeda']
 
     return items
       .map(item => {
@@ -64,7 +64,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I built. Some projects are still active, others have been discontinued.`
+  const description = `I'm obsessed with projects where <strong>user experience</strong> is the focus. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I've built. Some projects are still active, others have been discontinued— and I have new ones that are being sketched out.`
 
   return (
     <>
@@ -73,8 +73,8 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/projects" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://castrogusttavo.com/projects" property="og:url" />
+        <meta content={`https://castrogusttavo.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

@@ -8,7 +8,7 @@ const items = [
   },
   {
     jobTitle: 'Software Developer',
-    company: 'WorkOS',
+    company: 'Adaptworks',
     companyUrl: 'https://adapt.works',
     startDate: '2024-07-01',
     location: 'Sao Paulo, Sao Paulo',
