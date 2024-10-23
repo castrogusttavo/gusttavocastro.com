@@ -5,7 +5,7 @@ image: /static/img/posts/grupos-facebook.jpg
 slug: hell-world
 skip: true
 lang: pt-BR
-date: "2016-6-06"
+date: "20160-06-06"
 ---
 
 _Publicado originalmente em BrazilJS Foundation._
