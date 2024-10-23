@@ -19,11 +19,19 @@ const items = [
         stats: '4k+ users',
       },
       {
+        title: 'Carbon',
+        description: 'Create a course platform.',
+        url: '#',
+        active: true,
+        icon: '',
+        stats: 'Software',
+      },
+      {
         title: 'Therha',
         description: 'Next generation of Social Media.',
         url: '#',
         active: true,
-        icon: 'fig',
+        icon: '',
         stats: 'Software',
       },
       {
@@ -39,7 +47,7 @@ const items = [
         description: 'ESLint configuration for Softis projects.',
         url: 'https://www.npmjs.com/package/@hello.softis/eslint-config',
         active: true,
-        icon: 'fig',
+        icon: '',
         stats: '1k+ users',
       },
       {
