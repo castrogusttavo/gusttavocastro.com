@@ -9,11 +9,8 @@ date: "2024-10-21"
 
 A biblioteca Houston está se consolidando cada vez mais como uma das maiores coleções de ícones disponíveis no mercado, especialmente para desenvolvedores que utilizam frameworks como React, Angular, Vue e Ionic. Recentemente, fizemos uma grande atualização, adicionando mais de **200 novos ícones** à nossa coleção, que agora ultrapassa **36.000 ícones**. 
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="https://i.ibb.co/5WLY0vp/image-3.png" alt="Banner 1" width="45%" />
-  <img src="https://i.ibb.co/Gv1mq58/image-4.png" alt="Banner 2" width="45%" />
-</div>
-
+<img src="https://i.ibb.co/5WLY0vp/image-3.png" alt="Banner 1" width="45%" />
+<img src="https://i.ibb.co/Gv1mq58/image-4.png" alt="Banner 2" width="45%" />
 
 [Explore o Houston Agora!](https://www.houstonicons.com.br/)
 
