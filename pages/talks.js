@@ -10,7 +10,7 @@ import items from '../data/talks'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Talks // Zeno Rocha',
+    title: 'Talks // Gusttavo Castro',
     tagline: 'Confs. Meetups. Events.',
     image: '/static/images/talks-bw.jpg',
     primaryColor: 'purple',
@@ -22,7 +22,7 @@ export async function getStaticProps() {
 
 function Talks(props) {
   const renderFeatured = () => {
-    const featured = ['Epic Web Conf', 'Nordic.JS', 'SFHTML5']
+    const featured = ['Developer Experience', 'Hands-on Figma for devs', 'Pitch - Startup']
 
     return items
       .map(item => {
@@ -72,8 +72,8 @@ function Talks(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/talks" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://castrogusttavo.com/talks" property="og:url" />
+        <meta content={`https://castrogusttavo.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>
