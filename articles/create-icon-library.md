@@ -4,7 +4,7 @@ description: "Houston Icon Library: Mais de 36.000 Ícones para React, Angular, 
 image: https://i.ibb.co/HDbSw7c/file-cover-1.png
 slug: create-icon-library
 lang: pt-BR
-date: "2024-21-10"
+date: "2024-10-21"
 ---
 
 A biblioteca Houston está se consolidando cada vez mais como uma das maiores coleções de ícones disponíveis no mercado, especialmente para desenvolvedores que utilizam frameworks como React, Angular, Vue e Ionic. Recentemente, fizemos uma grande atualização, adicionando mais de **200 novos ícones** à nossa coleção, que agora ultrapassa **36.000 ícones**. 
