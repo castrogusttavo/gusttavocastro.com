@@ -9,18 +9,23 @@ export default function Footer() {
       icon: 'ri-mail-line',
     },
     {
+      title: 'Twitter',
+      url: 'https://twitter.com/zenorocha',
+      icon: 'ri-twitter-line',
+    },
+    {
       title: 'GitHub',
-      url: 'https://github.com/castrogusttavo',
+      url: 'https://github.com/zenorocha',
       icon: 'ri-github-line',
     },
     {
       title: 'linkedin',
-      url: 'https://linkedin.com/in/castrogusttavo',
+      url: 'https://linkedin.com/in/zenorocha',
       icon: 'ri-linkedin-line',
     },
     {
       title: 'Instagram',
-      url: 'https://instagram.com/castrogusttavo.dev',
+      url: 'https://instagram.com/zenorocha',
       icon: 'ri-instagram-line',
     },
   ]

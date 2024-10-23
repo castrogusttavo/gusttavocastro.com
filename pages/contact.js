@@ -8,7 +8,7 @@ import { styled } from '../stitches.config'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Contact // Gusttavo Castro',
+    title: 'Contact // Zeno Rocha',
     tagline: 'Email me. Like in the old days.',
     image: '/static/images/reminder-bw.jpg',
     primaryColor: 'cyan',
@@ -20,7 +20,7 @@ export async function getStaticProps() {
 
 function Contact(props) {
   const { title, image } = props
-  const description = `<strong>I enjoy engaging</strong> with software engineers, tech founders, students, and creative minds. <strong>I'm quite the busy bee</strong>, so while I can't guarantee an instant reply to your email, I'll certainly strive to get back to you as soon as I can!`
+  const description = `<strong>I love chatting</strong> with software engineers, tech founders, students, and creators. <strong>I'm a busy person</strong>, so I can't promise that I'll reply to your email right away, but I'll try my best to respond in a timely manner.`
   const [isEmailSent, setIsEmailSent] = React.useState(undefined)
   const [showToast, setShowToast] = React.useState(false)
 
@@ -29,9 +29,9 @@ function Contact(props) {
 
     try {
       const isProd = process.env.NODE_ENV === 'production'
-      const base = isProd ? 'https://castrogusttavo.vercel.app' : 'http://localhost:3000'
+      const base = isProd ? 'https://zenorocha.com' : 'http://localhost:3000'
 
-      const response = await fetch(`${base}/api/email`, {
+      await fetch(`${base}/api/email`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -41,17 +41,11 @@ function Contact(props) {
         }),
       })
 
-      if (response.ok) {
-        setIsEmailSent(true)
-      } else {
-        const data = await response.json();
-        console.error('Error response:', data);
-        setIsEmailSent(false)
-      }
+      setIsEmailSent(true)
       setShowToast(true)
     }
     catch(e) {
-      console.error('Fetch error:', e)
+      console.error(e)
       setIsEmailSent(false)
       setShowToast(true)
     }
@@ -64,8 +58,8 @@ function Contact(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://castrogusttavo.vercel.app/contact" property="og:url" />
-        <meta content={`https://castrogusttavo.vercel.app${image}`} property="og:image" />
+        <meta content="https://zenorocha.com/contact" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
       <Box>
@@ -74,11 +68,11 @@ function Contact(props) {
         <Form onSubmit={onSendEmail}>
           <FormGroup>
             <Label htmlFor="name">Name</Label>
-            <Input id="name" type="text" placeholder="Steve Jobs" required />
+            <Input id="name" type="text" placeholder="James Bond" required />
           </FormGroup>
           <FormGroup>
             <Label htmlFor="email">Email</Label>
-            <Input id="email" type="email" placeholder="steve@jobs.com" required />
+            <Input id="email" type="email" placeholder="james@bond.com" required />
           </FormGroup>
           <FormGroup>
             <Label htmlFor="message">Message</Label>

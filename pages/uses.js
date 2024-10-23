@@ -6,9 +6,9 @@ import categories from '../data/uses'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Uses // Gusttavo Castro',
+    title: 'Uses // Zeno Rocha',
     description:
-      "This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
+      "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
     tagline: 'Tools. Apps. Gear.',
     image: '/static/images/uses-bw.jpg',
     primaryColor: 'yellow',
@@ -53,8 +53,8 @@ function Uses(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro-com.vercel.app/uses" property="og:url" />
-        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
+        <meta content="https://zenorocha.com/uses" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
       <p dangerouslySetInnerHTML={{ __html: description }} />

@@ -9,8 +9,8 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projects // Gusttavo Castro',
-    tagline: 'Work. Hobby. New Experiences.',
+    title: 'Projects // Zeno Rocha',
+    tagline: 'Work. Hobby. Open Source.',
     image: '/static/images/projects-bw.jpg',
     primaryColor: 'cyan',
     secondaryColor: 'green',
@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['Softis', 'ESLint Config', 'Houston Icons', 'Andromeda']
+    const featured = ['Dracula', 'Clipboard.js', 'Resend', 'React Email']
 
     return items
       .map(item => {
@@ -64,7 +64,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `I'm obsessed with projects where <strong>user experience</strong> is the focus. Here you can navigate to <strong>${getTotalProjects()} different</strong> websistes, apps, and libraries I built. Some projects are still active, others have been discontinued - and I have new ones that are being sketched out.`
+  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I built. Some projects are still active, others have been discontinued.`
 
   return (
     <>
@@ -73,8 +73,8 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro-com.vercel.app/projects" property="og:url" />
-        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
+        <meta content="https://zenorocha.com/projects" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

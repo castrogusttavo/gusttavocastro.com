@@ -1,27 +1,21 @@
-import { Resend } from 'resend';
-import EmailTemplate from '../../components/EmailTemplate';
+import { Resend } from 'resend'
+const resend = new Resend(process.env.RESEND_API_KEY)
+import EmailTemplate from '../../components/EmailTemplate'
 
-const resend = new Resend('re_P3YeHLCz_Q9agbUAnLLN3JkDQzBYRtNQB');
-
-export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ message: 'Method not allowed' });
-  }
-
-  const { name, email, message } = req.body;
-
+export default async function sendEmail(req, res) {
   try {
-    await resend.sendEmail({
-      from: 'Gusttavo <onboarding@resend.dev>',
-      to: 'castrogusttavo.dev@gmail.com',
-      replyTo: email,
-      subject: `${name} - via gusttavocastro-com.vercel.app`,
-      html: EmailTemplate({ name, email, message }),
-    });
+    const data = req.body
 
-    res.status(200).json({ message: 'Email sent' });
-  } catch (error) {
-    console.error('Error sending email:', error);
-    res.status(500).json({ message: 'Failed to send email', error: error.message });
+    await resend.sendEmail({
+      from: 'zenorocha.com <website@zenorocha.com>',
+      to: process.env.RESEND_DESTINATION_EMAIL,
+      replyTo: data.email,
+      subject: `${data.name} - via zenorocha.com`,
+      react: <EmailTemplate {...data} />,
+    })
+
+    res.status(200).json({ message: 'Email sent' })
+  } catch (e) {
+    res.status(500).json({ message: e.message })
   }
 }

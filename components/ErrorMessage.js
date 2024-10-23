@@ -6,8 +6,8 @@ export default function ErrorMessage({ code }) {
   let description = "Something isn't right."
 
   if (code === 404) {
-    title = 'Bip... Bip...'
-    description = "Houston, we have a problem."
+    title = 'four oh four'
+    description = "This page doesn't exist."
   }
 
   return (

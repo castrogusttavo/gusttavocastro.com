@@ -34,6 +34,9 @@ export default function CommandBar(props) {
   const aboutRef = useRef()
   const articlesRef = useRef()
   const projectsRef = useRef()
+  const talksRef = useRef()
+  const podcastsRef = useRef()
+  const investingRef = useRef()
   const usesRef = useRef()
   const reminderRef = useRef()
   const router = useRouter()
@@ -72,7 +75,7 @@ export default function CommandBar(props) {
       keywords: 'view-source',
       section: 'General',
       perform: () =>
-        window.open('https://github.com/castrogusttavo/gusttavocastro.com', '_blank'),
+        window.open('https://github.com/zenorocha/zenorocha.com', '_blank'),
       icon: <Lottie lottieRef={sourceRef} style={iconSize} animationData={sourceIcon} loop={false} autoplay={false} />,
     },
     {
@@ -110,6 +113,33 @@ export default function CommandBar(props) {
       section: 'Go To',
       perform: () => router.push('/projects'),
       icon: <Lottie lottieRef={projectsRef} style={iconSize} animationData={projectsIcon} loop={false} autoplay={false} />,
+    },
+    {
+      id: 'talks',
+      name: 'Talks',
+      shortcut: ['g', 't'],
+      keywords: 'go-talks',
+      section: 'Go To',
+      perform: () => router.push('/talks'),
+      icon: <Lottie lottieRef={talksRef} style={iconSize} animationData={talksIcon} loop={false} autoplay={false} />,
+    },
+    {
+      id: 'podcasts',
+      name: 'Podcasts',
+      shortcut: ['g', 'c'],
+      keywords: 'go-podcasts',
+      section: 'Go To',
+      perform: () => router.push('/podcasts'),
+      icon: <Lottie lottieRef={podcastsRef} style={iconSize} animationData={podcastsIcon} loop={false} autoplay={false} />,
+    },
+    {
+      id: 'investing',
+      name: 'Investing',
+      shortcut: ['g', 'i'],
+      keywords: 'go-investing',
+      section: 'Go To',
+      perform: () => router.push('/investing'),
+      icon: <Lottie lottieRef={investingRef} style={iconSize} animationData={investingIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'uses',

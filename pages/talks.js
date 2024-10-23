@@ -10,7 +10,7 @@ import items from '../data/talks'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Talks // Gusttavo Castro',
+    title: 'Talks // Zeno Rocha',
     tagline: 'Confs. Meetups. Events.',
     image: '/static/images/talks-bw.jpg',
     primaryColor: 'purple',
@@ -22,7 +22,7 @@ export async function getStaticProps() {
 
 function Talks(props) {
   const renderFeatured = () => {
-    const featured = ['User Experience', 'Hands-on Figma', 'Pithc - Startup ']
+    const featured = ['Epic Web Conf', 'Nordic.JS', 'SFHTML5']
 
     return items
       .map(item => {
@@ -63,7 +63,7 @@ function Talks(props) {
   }
 
   const { title, image } = props
-  const description = `I went my first conference in 2023 and felt in love with <strong>sharing knowledge</strong> publicly. Since then, I have traveled to <strong>various places</strong> and gave more than <strong>${getTotalTalks()} talks</strong>. Want me to speak at your event? Hit me up!`
+  const description = `I went my first conference in 2010 and felt in love with <strong>sharing knowledge</strong> publicly. Since then, I traveled to <strong>11 countries</strong> and gave more than <strong>${getTotalTalks()} talks</strong>. Want me to speak at your event? Hit me up!`
 
   return (
     <>
@@ -72,8 +72,8 @@ function Talks(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro-com.vercel.app/talks" property="og:url" />
-        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
+        <meta content="https://zenorocha.com/talks" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

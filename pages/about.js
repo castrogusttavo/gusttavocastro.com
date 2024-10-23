@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
 import { ButtonPrimary } from '../components/ButtonPrimary'
+import Pronunciation from '../components/Pronunciation'
 import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
@@ -14,9 +15,9 @@ import downloadIcon from '../public/static/icons/download.json'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Gusttavo Castro',
+    title: 'About // Zeno Rocha',
     description:
-      "Gusttavo Castro is a Brazilian designer and programmer. He currently resides in Santos, São Paulo, where he is the founder and CEO. His dedication to spreading knowledge has led him to explore various technological areas. His appreciation for programming and his desire to learn made him one of the programmers of the 'Digital Literacy' project at CNPq, in collaboration with UNIFESP. Gusttavo has developed several software programs, given lectures, and studied ReactJS at major technology companies such as Rocketseat and Meta, as well as User Experience at Google and IBM.",
+      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/about-bw.jpg',
     primaryColor: 'pink',
@@ -39,8 +40,8 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Gusttavo"
-            src="/static/images/gusttavo.jpg"
+            alt="Zeno"
+            src="/static/images/avatar.jpg"
             width="336"
             height="336"
             placeholder="blur"
@@ -55,19 +56,21 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Gusttavo Castro</strong> {' '}
-            I started as a software engineer in 2024, working with PHP and React.
+            <strong>Hey, I'm Zeno Rocha</strong>
+            <Pronunciation />
+            I started as a software engineer back in 2009, working with Flash.
           </Paragraph>
           <Paragraph>
             I'm the <strong>Founder & CEO</strong> at
-            Softis. Before that, I was a UX Designer at Etec Drª Ruth Cardoso. I'm originally
-            from Brazil and live in{' '}
-            <strong>Santos, São Paulo</strong> with my amazing familly.
+            Resend. Before that, I was a VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally
+            from Brazil and now living in{' '}
+            <strong>San Francisco, California</strong> with my amazing wife and
+            beautiful daughter.
           </Paragraph>
           <Paragraph>
-            <strong>I love dark mode</strong>, user experience, and side projects.
+            <strong>I love dark mode</strong>, open source, and side projects.
             When I'm not working, I like running, watching movies, and{' '}
-            <strong>eating coxinha</strong>.
+            <strong>eating cheese</strong>.
           </Paragraph>
         </Section>
       </Container>
@@ -103,7 +106,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/gusttavo.jpg"
+            href="/static/images/avatar.jpg"
             style={btnStyle}
             onClick={downloadHeadshot}
             onMouseEnter={() => downloadRef.current?.play()}
@@ -185,8 +188,8 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://gusttavocastro-com.vercel.app/about" property="og:url" />
-        <meta content={`https://gusttavocastro-com.vercel.app${image}`} property="og:image" />
+        <meta content="https://zenorocha.com/about" property="og:url" />
+        <meta content={`https://zenorocha.com${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}
