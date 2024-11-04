@@ -150,7 +150,7 @@ function About(props) {
         <div style={{ marginBottom: 40 }} key={index}>
           <h3>{courser.certificationTitle}</h3>
           <p style={{ margin: 0 }}>
-            <a href={item.certificationURL} target="_blank">
+            <a href={courser.certificationURL} target="_blank">
               {courser.company}
             </a>
             <span> • {courser.location}</span>
