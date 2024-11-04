@@ -95,10 +95,10 @@ const categories = [
         url: 'https://github.com',
       },
       {
-        title: 'Mongo DB Atlas',
+        title: 'Prisma',
         description:
-          'A no-brainer database and auth solution for side projects.',
-        url: 'https://www.mongodb.com/cloud/atlas',
+          'A no-brainer database and auth solution for projects.',
+        url: 'https://prisma.io',
       },
       {
         title: 'Vercel',
@@ -106,16 +106,22 @@ const categories = [
           'Here is where I host all my websites. By far the best developer experience.',
         url: 'https://vercel.com',
       },
+      {
+        title: 'Resend',
+        description:
+          'I use this to send transactional emails.',
+        url: 'https://resend.com',
+      },
     ],
   },
   {
     name: 'Audio',
     items: [
       {
-        title: 'Galaxy Buds FE',
+        title: 'WAAW Energy 100EBG by ALOK',
         description:
           'I use these earbuds for calls and to listen to music while running.',
-        url: 'https://www.samsung.com/br/audio-sound/galaxy-buds/galaxy-buds-fe-graphite-sm-r400nzapzto/',
+        url: 'waaw.com.br/products/waaw-energy-100ebg-fone-de-ouvido-gamer-tws',
       },
     ],
   },
