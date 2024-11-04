@@ -1,4 +1,4 @@
-const items = [
+const coursers = [
   {
     certificationTitle: 'Founder & CEO',
     company: 'Softis',
@@ -9,4 +9,4 @@ const items = [
   },
 ]
 
-export default items
+export default coursers
