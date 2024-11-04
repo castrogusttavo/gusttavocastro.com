@@ -6,25 +6,11 @@ const coursers = [
     location: 'Online',
   },
   {
-    certificationTitle: 'Frontend Developer',
-    company: 'Meta',
-    startDate: '2024-08-01',
-    location: 'Online',
-  },
-  {
     certificationTitle: 'NodeJS Application Developer',
     company: 'OpenJS Foundation',
     certificationURL: 'https://www.linkedin.com/in/castrogusttavo/overlay/1728072771349/single-media-viewer?type=DOCUMENT&profileId=ACoAAEJL8ksB0c99aSUlVr_kOsh6w2m73ghCOYk&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bi6I5DVD%2BTC21gUFJTIuLiw%3D%3D',
     startDate: '2024-10-01',
     endDate: '2024-10-30',
-    location: 'Online',
-  },
-  {
-    certificationTitle: 'Foundational Software Development',
-    company: 'Microsoft',
-    certificationURL: 'https://www.linkedin.com/learning/certificates/c23ae90ee352c0eb6e44141bd3fd671dcfb1abd54c6a5c06ac9dd038cd7882e1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bi6I5DVD%2BTC21gUFJTIuLiw%3D%3D',
-    startDate: '2024-10-26',
-    endDate: '2024-10-28',
     location: 'Online',
   },
   {
