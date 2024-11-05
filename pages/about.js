@@ -40,7 +40,7 @@ function About(props) {
         <Section>
           <Image
             alt="Gusttavo"
-            src="/static/images/avatar.jpg"
+            src="/static/images/avatar.png"
             width="336"
             height="336"
             placeholder="blur"

@@ -2,7 +2,7 @@
 title: Hello world
 description: "Era uma noite de sexta-feira, dia 15 de março. Adentro ao meu espaço de trabalho, repleto de entusiasmo e determinação para criar algo novo: meu novo portfólio."
 slug: hello-world
-image: /static/images/gusttavo.jpg
+image: /static/images/gusttavo.png
 lang: pt-BR
 date: "2024-01-15"
 ---
