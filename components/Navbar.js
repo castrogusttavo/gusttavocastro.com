@@ -113,7 +113,6 @@ const ButtonHeader = styled('div', {
   borderRadius: '$borderRadius',
   color: 'white',
   cursor: 'pointer',
-  cursor: 'pointer',
   height: '34px',
   padding: '0 10px',
   transition: 'background $duration ease-in-out',

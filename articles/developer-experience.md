@@ -1,10 +1,10 @@
 ---
-title: Developer Experience (DX)
-description: "The secret to happy and productive devs"
-slug: developer-experience
-image: https://i.pinimg.com/736x/91/c4/56/91c4565c774a9cacc7274bc273101cca.jpg
+title: Hello world
+description: "Era uma noite de sexta-feira, dia 15 de março. Adentro ao meu espaço de trabalho, repleto de entusiasmo e determinação para criar algo novo: meu novo portfólio."
+slug: hello-worl
+image: /static/images/gusttavo.png
 lang: pt-BR
-date: "2025-01-19"
+date: "2024-01-15"
 ---
 
 Imagine you're making a sandwich: the bread is already sliced, the cheese is in slices, and the ham is perfectly cut. Everything's ready for you to make that perfect snack without searching for a knife or struggling with complicated packaging. This is DX in practice: tools and processes that help the dev focus on what really matters — *the code that will change the world* (or at least fix the bug of the day).
