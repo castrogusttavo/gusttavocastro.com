@@ -3,6 +3,14 @@ const items = [
     year: '2025',
     projects: [
       {
+        title: 'Softis',
+        description: 'Shaping the future, bit by bit.',
+        url: '',
+        active: true,
+        icon: 'resend',
+        stats: 'Startup',
+      },
+      {
         title: 'Stark',
         description: 'Educational platform.',
         url: 'https://www.linkedin.com/feed/update/urn:li:activity:7260698967699587072/',
@@ -31,14 +39,6 @@ const items = [
   {
     year: '2024',
     projects: [
-      {
-        title: 'Softis',
-        description: 'Shaping the future, bit by bit.',
-        url: '',
-        active: true,
-        icon: 'resend',
-        stats: 'Startup',
-      },
       {
         title: 'Houston Icons',
         description: 'Beautiful Icons for developers.',
