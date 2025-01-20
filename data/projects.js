@@ -1,5 +1,34 @@
 const items = [
   {
+    year: '2025',
+    projects: [
+      {
+        title: 'Stark',
+        description: 'Educational platform.',
+        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7260698967699587072/',
+        active: true,
+        icon: 'fig',
+        stats: 'Startup',
+      },
+      {
+        title: 'simpleList',
+        description: 'Organize your tasks easily.',
+        url: 'simplelist.vercel.app',
+        active: true,
+        icon: 'clipboard-js',
+        stats: 'Software',
+      },
+      {
+        title: 'Therha',
+        description: 'Next generation of Social Media.',
+        url: '',
+        active: true,
+        icon: '',
+        stats: 'Software',
+      },
+    ]
+  },
+  {
     year: '2024',
     projects: [
       {
@@ -19,34 +48,10 @@ const items = [
         stats: '4k+ users',
       },
       {
-        title: 'Stark',
-        description: 'Educational content for developers.',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7260698967699587072/',
-        active: true,
-        icon: 'fig',
-        stats: 'Startup',
-      },
-      {
-        title: 'Carbon',
-        description: 'Create a course platform.',
-        url: '',
-        active: true,
-        stats: 'Software',
-      },
-      {
-        title: 'Therha',
-        description: 'Next generation of Social Media.',
-        url: '',
-        active: true,
-        icon: '',
-        stats: 'Software',
-      },
-      {
         title: 'Andromeda',
         description: 'Creating a design system for a Softis.',
         url: 'https://hello-softis.github.io/andromeda/',
         active: true,
-        icon: 'charm',
         stats: 'Design',
       },
       {
