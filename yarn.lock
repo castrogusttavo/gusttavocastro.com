@@ -1971,10 +1971,10 @@ lottie-react@^2.3.1:
   dependencies:
     lottie-web "^5.9.4"
 
-lottie-web@^5.9.4:
-  version "5.9.6"
-  resolved "https://registry.npmjs.org/lottie-web/-/lottie-web-5.9.6.tgz"
-  integrity sha512-JFs7KsHwflugH5qIXBpB4905yC1Sub2MZWtl/elvO/QC6qj1ApqbUZJyjzJseJUtVpgiDaXQLjBlIJGS7UUUXA==
+lottie-web@^5.12.2, lottie-web@^5.9.4:
+  version "5.12.2"
+  resolved "https://registry.npmjs.org/lottie-web/-/lottie-web-5.12.2.tgz"
+  integrity sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==
 
 lru-cache@^6.0.0:
   version "6.0.0"
