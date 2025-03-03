@@ -18,7 +18,7 @@ export async function getStaticProps() {
     title: 'About // Gusttavo Castro',
     description: 'Gusttavo Castro is a Brazilian Software Developer, founder and CEO of Softis, as well as the creator of the open-source icon library Houston Icons Pro. He currently works as a Software Developer at Adaptworks and resides in São Paulo, Brazil. His passion for programming and continuous learning has led him to explore various technological areas, creating innovative solutions. Gusttavo has developed several software projects, given talks, and specialized in ReactJS with companies such as Rocketseat and Meta, in addition to studying User Experience at Google and IBM.',
     tagline: 'Create. Share. Repeat.',
-    image: '/static/images/photo-bw.png',
+    image: '/static/images/photo.png',
     primaryColor: 'pink',
     secondaryColor: 'purple',
   }
@@ -40,7 +40,7 @@ function About(props) {
         <Section>
           <Image
             alt="Gusttavo"
-            src="/static/images/photo-bw.png"
+            src="/static/images/photo.png"
             width="336"
             height="336"
             placeholder="blur"

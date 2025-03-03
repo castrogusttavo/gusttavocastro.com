@@ -21,7 +21,7 @@ const items = [
       {
         title: 'simpleList',
         description: 'Organize your tasks easily.',
-        url: 'simplelist.vercel.app',
+        url: 'simplelists.vercel.app',
         active: true,
         icon: 'clipboard-js',
         stats: 'Software',
