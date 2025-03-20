@@ -51,6 +51,8 @@ function Post(props) {
 }
 
 export async function getStaticProps({ params }) {
+  console.log('Fetching post for slug:', params.slug) // Este log será visível nos logs do servidor
+
   try {
     const post = getPostBySlug(params.slug, [
       'canonical_url',
