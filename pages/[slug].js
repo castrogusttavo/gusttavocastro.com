@@ -5,6 +5,8 @@ import ErrorMessage from '../components/ErrorMessage'
 import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
 
 function Post(props) {
+  console.log('Post props:', props)
+
   if (props.errorCode) {
     return <ErrorMessage code={props.errorCode} />
   }
