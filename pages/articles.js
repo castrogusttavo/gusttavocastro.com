@@ -20,7 +20,9 @@ export async function getStaticProps() {
     'description',
   ]
 
-  const featuredPosts = []
+  const featuredPosts = [
+    getPostBySlug('hello-world', featuredParams),
+  ]
 
   return {
     props: {
