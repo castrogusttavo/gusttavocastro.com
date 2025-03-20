@@ -8,7 +8,6 @@ import { ButtonPrimary } from '../components/ButtonPrimary'
 import Toast from '../components/Toast'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
-import coursers from '../data/certification'
 import Lottie from 'lottie-react'
 import copyBioIcon from '../public/static/icons/copy-bio.json'
 import downloadIcon from '../public/static/icons/download.json'
@@ -138,33 +137,6 @@ function About(props) {
             </span>
             <span> • </span>
             <span>{getDuration(item.startDate, item.endDate)}</span>
-          </p>
-        </div>
-      )
-    })
-  }
-
-  const renderAllCertification = () => {
-    return coursers.map((courser, index) => {
-      return (
-        <div style={{ marginBottom: 40 }} key={index}>
-          <h3>{courser.certificationTitle}</h3>
-          <p style={{ margin: 0 }}>
-            <a href={courser.certificationURL} target="_blank">
-              {courser.company}
-            </a>
-            <span> • {courser.location}</span>
-          </p>
-          <p style={{ margin: 0 }}>
-            <span>{format(parseISO(courser.startDate), 'LLL yyyy')}</span>
-            <span> – </span>
-            <span>
-              {courser.endDate
-                ? format(parseISO(courser.endDate), 'LLL yyyy')
-                : 'Present'}
-            </span>
-            <span> • </span>
-            <span>{getDuration(courser.startDate, courser.endDate)}</span>
           </p>
         </div>
       )
