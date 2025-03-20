@@ -50,6 +50,7 @@ function Post(props) {
 
 export async function getStaticProps({ params }) {
   try {
+    console.log('Fetching post for slug:', params.slug)
     const post = getPostBySlug(params.slug, [
       'canonical_url',
       'content',
@@ -60,6 +61,11 @@ export async function getStaticProps({ params }) {
       'slug',
       'title',
     ])
+
+    if (!post) {
+      console.error('Post not found:', params.slug)
+      return { props: { errorCode: 404 } }
+    }
 
     const content = await convertMarkdownToHtml(post.content || '')
 
@@ -87,6 +93,8 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const posts = getAllPosts(['slug'])
+
+  console.log('Posts:', posts)
 
   return {
     paths: posts.map(post => {
