@@ -196,9 +196,6 @@ function About(props) {
       <h2>Career</h2>
       {renderAll()}
 
-      <h2>Certification</h2>
-      {renderAllCertification()}
-
       <Toast
         title={toastTitle}
         description={toastDescription}
