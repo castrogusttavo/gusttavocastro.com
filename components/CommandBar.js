@@ -32,6 +32,7 @@ export default function CommandBar(props) {
   const sourceRef = useRef()
   const homeRef = useRef()
   const aboutRef = useRef()
+  const articlesRef = useRef()
   const projectsRef = useRef()
   const talksRef = useRef()
   const usesRef = useRef()
@@ -92,6 +93,15 @@ export default function CommandBar(props) {
       section: 'Go To',
       perform: () => router.push('/about'),
       icon: <Lottie lottieRef={aboutRef} style={iconSize} animationData={aboutIcon} loop={false} autoplay={false} />,
+    },
+    {
+      id: 'articles',
+      name: 'Articles',
+      shortcut: ['g', 'b'],
+      keywords: 'go-articles',
+      section: 'Go To',
+      perform: () => router.push('/articles'),
+      icon: <Lottie lottieRef={articlesRef} style={iconSize} animationData={articlesIcon} loop={false} autoplay={false} />,
     },
     {
       id: 'projects',
