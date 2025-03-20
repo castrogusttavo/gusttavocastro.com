@@ -50,7 +50,6 @@ function Post(props) {
 
 export async function getStaticProps({ params }) {
   try {
-    console.log('Fetching post for slug:', params.slug)
     const post = getPostBySlug(params.slug, [
       'canonical_url',
       'content',
@@ -62,22 +61,10 @@ export async function getStaticProps({ params }) {
       'title',
     ])
 
-    if (!post) {
-      console.error('Post not found:', params.slug)
-      return { props: { errorCode: 404 } }
-    }
-
     const content = await convertMarkdownToHtml(post.content || '')
 
     const isProd = process.env.NODE_ENV === 'production'
-    const base = isProd ? 'https://castrogusttavo.vercel.app' : 'http://localhost:3000'
-
-    if (isProd) {
-      const viewsReq = await fetch(`${base}/api/views/${params.slug}`)
-      const viewsRes = await viewsReq.json()
-
-      post.views = new Intl.NumberFormat().format(viewsRes.views || 0)
-    }
+    const base = isProd ? 'https://castrogusttavo.vercel.app/' : 'http://localhost:3000'
 
     return {
       props: {
@@ -93,8 +80,6 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const posts = getAllPosts(['slug'])
-
-  console.log('Posts:', posts)
 
   return {
     paths: posts.map(post => {

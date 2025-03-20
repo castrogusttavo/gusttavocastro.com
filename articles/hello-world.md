@@ -1,34 +1,69 @@
 ---
-title: Hello world
-description: "Era uma noite de sexta-feira, dia 15 de março. Adentro ao meu espaço de trabalho, repleto de entusiasmo e determinação para criar algo novo: meu novo portfólio."
-slug: hello-world
+title: Marathons and Startups
+description: "Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here’s what I learned..."
+slug: marathons-and-startups
 image: /static/images/gusttavo.png
-lang: pt-BR
-date: "2024-01-15"
+date: "2025-02-04"
 ---
 
-Era uma noite de sexta-feira, dia 15 de março.
+Just ran my first race ever—the San Francisco Half Marathon.
 
-Adentro ao meu espaço de trabalho, repleto de entusiasmo e determinação para criar algo novo... quando recebo o desafio de refazer o meu portfólio - após uma conversa com [Gusttavo Brito](https://www.linkedin.com/in/gustavobrito06/), [Pedro Rocha](https://www.linkedin.com/in/castrogusttavo) e [Eduardo Santos](https://www.linkedin.com/in/eduardo-dos-santos-301a721a8/).
+The experience? Surprisingly similar to building a startup.
 
-O assunto era a díficil tarefa de expor de forma elegante e concisa nossos projetos e trabalhos criados.
+Here’s what I learned...
 
-Resolveram então fazer uma aposta, ou você cria e mantém atualizado o seu portfólio ou paga um pack de energético.
+## 1. Unfavorable conditions
 
-<!-- more -->
+When I woke up for race day, it was raining like crazy. By the time I arrived at Golden Gate Park, it was still raining. During the race, the rain got even worse.
 
-Na hora tentaram me convencer a entrar na aposta também, mas é claro que rejeitei em meio há tantas coisas que já tenho que cumprir na minha rotina, seria loucura tentar manter um portfólio ainda.
+That's how it feels when you start your own company. You might be too late, or maybe too early. The market might pull you into a different direction or your users may not like your product at first. You might need to pivot, or even start from the beginning again.
 
-Uma semana depois, durante a aula vejo a seguinte mensagem:
+Whatever happens, conditions are never going to be perfect.
 
-> *@pedroka @eduardo Temos que convencer o @gusttavoCastro a entrar agora*
->
-> — Gustavo Brito(@gbrito) <u>March 10,2024</u>
+Don't expect a sunny day.
 
-Na hora, fiquei entre naquele difícil dilema: Assisto aula ou começo a desenvolver um agora mesmo?
+## 2. The real competition
 
-Se você me conhece, já imagina que fiquei naquilo a aula toda, depois cheguei em casa e ainda continuei trabalhando nos últimos retoques.
+When the race starts, you see all these people next to you. Some runners look similar to you, so you start running at the same pace. At some point, you try to run faster than them.
 
-Ainda tenho muita coisa para melhorar aqui, mas agora 03:19h entro oficialmente na aposta!
+As the race continues, you realize that beating yourself is going to be the hardest part.
 
-#boracodar!
+Same with startups. In the early days, you want to beat Goliath. Goliath might be the slow, old-school market leader, or it could be this hot new startup that started earlier than you.
+
+As time goes by, you understand that it doesn't matter what they do. What matters is what your users want, the problems they face, and the team you put together to tackle these problems.
+
+It's not about them. It's about you.
+
+## 3. It only gets harder
+
+During training, the longest I've ever run was 13 km (8 mi).
+
+Coincidentally, the race circuit changed by the time we arrived at the 13th km. The whole race was inside a park, but at this point, we reached Ocean Beach. That segment was beyond brutal.
+
+The headwind was so strong that you could barely move. Add heavy rain on top of it, and you can imagine how hard it was.
+
+Startups are no different.
+
+Getting the first users is incredibly hard. Making your first dollar is even harder. Reaching $1M ARR is extremely hard. Finding a repeatable model to continue growing is absurdly hard.
+
+But just because it's hard, it doesn't mean you can't do it.
+
+## 4. There's no finish line
+
+As I got closer to the end, I couldn't believe I was actually going to make it.
+
+Getting to that finish line was incredible, and I'm super happy I went through this experience.
+
+Still, today is a new day. Now that I'm done resting, I'll get back to training, and do it all over again.
+
+The reality is that the bar keeps moving. At a startup, you feel incredible when you close that first big customer or land an amazing logo. It's truly great when you hit that MRR target.
+
+Then, a new month arrives, and you have to reinvent yourself and find a way to beat that MRR goal again.
+
+## So how do you deal with all that?
+
+You find beauty in the small things.
+
+You enjoy the growing pains. You feel grateful for the scalability challenges. You find the process of building a team rewarding. You see people growing every single day.
+
+That's what makes it special.
