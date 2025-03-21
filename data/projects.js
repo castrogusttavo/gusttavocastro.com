@@ -12,7 +12,7 @@ const items = [
       },
       {
         title: 'Code.dev',
-        description: 'DSA platform.',
+        description: 'Data Structure and Algorithms.',
         url: '',
         active: true,
         icon: 'fig',
