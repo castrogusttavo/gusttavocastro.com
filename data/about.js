@@ -21,14 +21,6 @@ const items = [
     endDate: '2024-12-01',
     location: 'Sao Paulo, Sao Paulo',
   },
-  {
-    jobTitle: 'Frontend Developer',
-    company: 'CNPq',
-    companyUrl: 'https://ids.saude360.app.br/entrada.php',
-    startDate: '2024-02-01',
-    endDate: '2024-06-01',
-    location: 'Sao Paulo, Sao Paulo',
-  },
 ]
 
 export default items
