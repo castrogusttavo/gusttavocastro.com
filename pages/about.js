@@ -15,7 +15,7 @@ import downloadIcon from '../public/static/icons/download.json'
 export async function getStaticProps() {
   const meta = {
     title: 'About // Gusttavo Castro',
-    description: 'Gusttavo Castro is a Brazilian Software Developer, founder and CEO of Softis, as well as the creator of the open-source icon library Houston Icons Pro. He currently works as a Software Developer at Adaptworks and resides in São Paulo, Brazil. His passion for programming and continuous learning has led him to explore various technological areas, creating innovative solutions. Gusttavo has developed several software projects, given talks, and specialized in ReactJS with companies such as Rocketseat and Meta, in addition to studying User Experience at Google and IBM.',
+    description: 'Gusttavo Castro is a Brazilian software developer. He currently works as a Developer Experience Engineer at code.dev. His passion for building scalable applications and improving Developer Experience (DX) led him to specialize in Node.js and Next.js, while also gaining experience with .NET and Razor. His dedication to testing and security allows him to create robust CI/CD pipelines and reliable RESTful APIs. Before joining code.dev, Gusttavo built multiple applications from scratch and shared his knowledge through LinkedIn, helping other developers enhance their skills and careers.',
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/photo.png',
     primaryColor: 'pink',
@@ -43,7 +43,6 @@ function About(props) {
             width="336"
             height="336"
             placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
             priority
           />
         </Section>
@@ -59,7 +58,7 @@ function About(props) {
           </Paragraph>
           <Paragraph>
             I'm the <strong>Founder & CEO</strong> at
-            Softis. Before that, I was a Software Developer at Adaptworks and Frontend Developer at CNPq. I'm originally
+            Softis and Mid-Level TypeScript Developer at code.dev. Before that, I was a Software Developer at Adaptworks. I'm originally
             from Brazil and now living in{' '}
             <strong>Sao Paulo</strong> with my amazing family.
           </Paragraph>
@@ -102,7 +101,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/avatar.png"
+            href="/static/images/photo.png"
             style={btnStyle}
             onClick={downloadHeadshot}
             onMouseEnter={() => downloadRef.current?.play()}

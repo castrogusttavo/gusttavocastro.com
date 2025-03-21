@@ -1,6 +1,6 @@
 const items = [
   {
-    jobTitle: 'Mid-level Developer Experience Engineer',
+    jobTitle: 'Developer Experience Engineer',
     company: 'code.dev',
     companyUrl: '',
     startDate: '2025-03-01',
@@ -9,7 +9,7 @@ const items = [
   {
     jobTitle: 'Mid-level TypeScript Developer',
     company: 'Softis',
-    companyUrl: 'https://softis.com',
+    companyUrl: '',
     startDate: '2024-01-02',
     location: 'Sao Paulo, Sao Paulo',
   },
