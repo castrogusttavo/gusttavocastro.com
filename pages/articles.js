@@ -26,7 +26,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: 'Articles // Gusttavo Castro',
+      title: 'Letters // Gusttavo Castro',
       tagline: 'Stories. Updates. Guides.',
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'yellow',
@@ -72,7 +72,7 @@ function Articles(props) {
   }
 
   const { title, image } = props
-  const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`
+  const description = `Here you can find all the <strong>${props.allPosts.length} letters</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`
 
   return (
     <>
@@ -88,10 +88,10 @@ function Articles(props) {
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>Featured Articles</h2>
+        <h2>Featured Letters</h2>
         <FeaturedArticles>{renderFeatured()}</FeaturedArticles>
 
-        <h2>All Articles</h2>
+        <h2>All Letters</h2>
         <ListGroup>{renderAll()}</ListGroup>
       </AnimateSharedLayout>
     </>
