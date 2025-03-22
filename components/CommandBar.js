@@ -96,7 +96,7 @@ export default function CommandBar(props) {
     },
     {
       id: 'articles',
-      name: 'Articles',
+      name: 'Letters',
       shortcut: ['g', 'b'],
       keywords: 'go-articles',
       section: 'Go To',
