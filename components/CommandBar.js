@@ -100,7 +100,7 @@ export default function CommandBar(props) {
       shortcut: ['g', 'b'],
       keywords: 'go-articles',
       section: 'Go To',
-      perform: () => router.push('/articles'),
+      perform: () => router.push('/letters'),
       icon: <Lottie lottieRef={articlesRef} style={iconSize} animationData={articlesIcon} loop={false} autoplay={false} />,
     },
     {
