@@ -1,9 +1,9 @@
 ---
-title: Marathons and Startups
+title: 2FA Authentication
 description: "Just ran my first race ever—the San Francisco Half Marathon. The experience? Surprisingly similar to building a startup. Here’s what I learned..."
-slug: marathons-and-startups
-image: /static/images/initial-commit.png
-date: "2025-02-04"
+slug: 2FA-auth
+image: /static/images/nextAuth-otp.png
+date: "2025-03-04"
 ---
 
 Just ran my first race ever—the San Francisco Half Marathon.
