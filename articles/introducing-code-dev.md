@@ -8,47 +8,44 @@ date: "2025-03-30"
 
 ## Why are we doing this?
 
-Back when I was CEO at Softis, I faced a frustrating problem: I wanted to build large-scale applications but kept hitting roadblocks.
+A few years ago, when I was CEO at Softis, I faced a recurring frustration—building scalable applications felt out of reach.
 
-We had amazing ideas, but they never left the whiteboard due to a lack of knowledge in key areas—especially system architecture.
+We had incredible ideas, but they never left the drawing board due to gaps in knowledge, architecture, and execution.
 
-Then, with the rise of AI tools like ChatGPT, I realized something: the way we learn to build applications has fundamentally changed. Access to knowledge is easier, but structuring it effectively? That’s still a pain point.
+Fast forward to today. With tools like ChatGPT, learning how to build applications has become more accessible than ever. The landscape has shifted, and now, the only thing standing between developers and production-ready code is the right learning experience.
 
-After analyzing all the possible solutions, I became obsessed with fixing this problem once and for all.
+After diving deep into the existing solutions, I became obsessed with solving this problem once and for all.
 
-I started sharing posts on LinkedIn to help developers create real-world solutions that merge code and innovation.
+I started publishing content on LinkedIn, sharing practical ways for developers to bridge the gap between coding and innovation.
 
-The deeper I dug, the clearer it became—this was just the tip of the iceberg.
+But the more I explored, the more I realized—we’re only scratching the surface.
 
-Learning to program efficiently is still a huge challenge, so we decided to explore something new.
+The real challenge? Learning how to think like a developer. So we decided to build something new.
 
 ## What problem are we solving?
 
-We're building a learning platform, and we’re starting with Data Structures and Algorithms (DSA).
+We’re building a platform that redefines learning—starting with Data Structures and Algorithms (DSA).
 
-The idea? Learn through hands-on challenges and exercises, without the distractions of shipping features to production.
+The idea is simple: learn by doing. Solve challenges, tackle real-world problems, and level up your skills without worrying about breaking production.
 
-Think of it as a next-generation LeetCode—built for the way developers actually learn today.
+Think of it as LeetCode, but reimagined for the next generation of developers.
 
 ## Why now?
 
-If you look at the biggest competitors, you’ll notice they were all founded between 2012 and 2017—and most have already been acquired.
+Look at the major platforms in this space. Most were founded between 2012 and 2017. They’ve been acquired. They’ve shifted focus.
 
-That means they now prioritize enterprise customers and optimize for sales-driven growth.
+They prioritize enterprise customers. Growth is driven by sales, not innovation.
 
-Nobody is focusing on creating an exceptional developer experience. Nobody is pushing real innovation.
+And here’s the real problem—no one is building a truly exceptional developer experience.
 
-There isn’t a single DSA platform truly built for modern developers. We’re here to change that.
+The tools we use to learn DSA feel outdated. Stuck in 2010. We need to rethink how algorithms are taught in 2025 and beyond.
 
-We need to stop writing code like it’s 2010 and rethink how algorithms are designed and applied in 2025 and beyond.
-
-Algorithm development needs a reboot. A refresh. A modern approach that aligns with how we build applications today.
+Developers deserve a better way to practice coding. A modern, engaging, and intuitive platform built for how we learn today.
 
 ## Join us
 
-I’m beyond excited to take on the role of Developer Experience Engineer and build a platform that developers will genuinely love.
+I’m beyond excited to step into this challenge and build something that developers will love.
 
-We’re creating something special here, and I can’t wait to share it with you.
+We’re creating something special here. And I can’t wait to share it with you.
 
-Join the waitlist and be the first to experience it: [codedotdev.com](https://codedotdev.com).
-
+Join the waitlist and be the first to experience it: [code.dev]().
