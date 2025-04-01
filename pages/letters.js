@@ -22,7 +22,6 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug('introducing-code-dev', featuredParams),
-    getPostBySlug('2FA-auth', featuredParams),
   ]
 
   return {
