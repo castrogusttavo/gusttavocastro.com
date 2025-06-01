@@ -21,7 +21,8 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
-    getPostBySlug(['welcoming-gusttavo-castro', 'codedev-resend'], featuredParams),
+    getPostBySlug('welcoming-gusttavo-castro', featuredParams),
+    getPostBySlug('codedev-resend', featuredParams),
   ]
 
   return {
