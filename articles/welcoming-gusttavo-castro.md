@@ -39,7 +39,7 @@ And if that didn’t work out — I’ve always wondered what it’s like to be 
 
 Snoopy is my all-time favorite cartoon, so I like to keep a few Snoopy touches around me!
 
-![Gusttavo's desktop](/public/static/images/workspace.png)
+![Gusttavo's desktop](/static/images/workspace.png)
 
 **Favorite tool?**
 
@@ -47,7 +47,7 @@ I love taking notes with [Obsidian](https://obsidian.md). It’s a simple yet po
 
 Plus, the brain-style graph view is just awesome.
 
-![My neurons](/public/static/images/obsidian.png)
+![My neurons](/static/images/obsidian.png)
 
 **Favorite keyboard shortcut?**
 
