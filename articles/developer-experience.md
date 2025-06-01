@@ -1,5 +1,5 @@
 ---
-title: What is AX (Agent Experience) and how to improve it
+title: What is DX (Developer Experience) and how to improve it
 description: "Best practices for building dev-friendly products."
 slug: developer-experience
 image: /static/images/developer-experience.png
