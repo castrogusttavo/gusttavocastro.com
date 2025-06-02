@@ -28,8 +28,11 @@ From the frontend to the database, everything was designed with speed and resili
 
 All service communication goes through **REST** (via an API Gateway) and **WebSockets** for real-time events — like submission status and live progress updates.
 
-(Frontend architecture image)
-(Backend architecture image)
+![Front-end Architecture](\static\images\frontend-arch.png)
+Frontend Architecture
+
+![Back-end Architecture](\static\images\backend-arch.png)
+Back-end Architecture
 
 ## Microservices in action
 
@@ -37,7 +40,7 @@ Our microservice architecture lets us scale each part of the platform independen
 
 Every service has its own **Redis** cache, strict limits, and can be scaled on demand. We're now building the worker and observability layer on top of that.
 
-(RabbitMQ communication diagram)
+![Microservices example](\static\images\microsservices.png)
 
 If you want a deeper dive into what microservices are and why we went with this model, check out our [Microservices newsletter](link).
 
@@ -47,7 +50,7 @@ Every submission gets processed by a worker that runs the code inside an isolate
 
 Validation is fully automated and returns a clear status: **success**, **compilation error**, **timeout**, or **test failure**.
 
-(Flowchart: code input → Docker → WebHook → status returned)
+![Submit Service FlowChart](\static\images\code-exec.png)
 
 ## A database for every job
 
@@ -79,16 +82,16 @@ Security’s not an add-on — it’s baked in.
 
 To design all this and truly understand what we needed, we studied a lot and leaned on inspiration from awesome creators. Huge thanks to:
 
-* [Augusto Galego](link)
-* [Renato Augusto](link)
-* [Diego Fernandes](link)
-* [Lucas Montano](link)
-* [Lazar Nikolov](link)
-* [O'Reilly – books](link)
+* [Augusto Galego](https://www.youtube.com/@GutoGalego)
+* [Diego Fernandes](https://www.youtube.com/@rocketseat)
+* [Renato Augusto](https://www.youtube.com/@RenatoAugustoTech)
+* [Lazar Nikolov](https://www.youtube.com/@nikolovlazar)
+* [Lucas Montano](https://www.youtube.com/@LucasMontano)
+* [O'Reilly – books](https://www.oreilly.com/)
 
-And of course, a massive shoutout to **deyvin** — without him, I’d have totally lost it.
+And of course, a massive shoutout to [**deyvin**](https://www.youtube.com/@manodeyvin) — without him, I’d have totally lost it.
 
-(Image with each person’s photo and a different emoji)
+![The besters](\static\images\influencers.png)
 
 ## Lessons & next steps
 
