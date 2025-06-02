@@ -20,10 +20,12 @@ export async function getStaticProps() {
     'description',
   ]
 
-  const featuredPosts = [
-    getPostBySlug('welcoming-gusttavo-castro', featuredParams),
-    getPostBySlug('codedev-resend', featuredParams),
-  ]
+
+  const sortedPosts = allPosts.sort((a, b) =>
+    new Date(b.date) - new Date(a.date)
+  )
+
+  const featuredPosts = sortedPosts.slice(0, 2)
 
   return {
     props: {
