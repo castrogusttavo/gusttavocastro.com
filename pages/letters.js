@@ -23,6 +23,7 @@ export async function getStaticProps() {
   const featuredPosts = [
     getPostBySlug('welcoming-gusttavo-castro', featuredParams),
     getPostBySlug('codedev-resend', featuredParams),
+    getPostBySlug('git-commit-first-commit', featuredParams),
   ]
 
   return {
