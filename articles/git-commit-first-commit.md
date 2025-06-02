@@ -28,11 +28,15 @@ From the frontend to the database, everything was designed with speed and resili
 
 All service communication goes through **REST** (via an API Gateway) and **WebSockets** for real-time events — like submission status and live progress updates.
 
-![Front-end Architecture](\static\images\frontend-arch.png)
-Frontend Architecture
+<figure>
+  <img src="\static\images\frontend-arch.png" class="post-image-full" alt="Frontend Architecture">
+  <figcaption class="post-image-caption">Frontend Architecture</figcaption>
+</figure>
 
-![Back-end Architecture](\static\images\backend-arch.png)
-Back-end Architecture
+<figure>
+  <img src="\static\images\backend-arch.png" class="post-image-full" alt="Backend Architecture">
+  <figcaption class="post-image-caption">Backend Architecture</figcaption>
+</figure>
 
 ## Microservices in action
 
@@ -40,7 +44,10 @@ Our microservice architecture lets us scale each part of the platform independen
 
 Every service has its own **Redis** cache, strict limits, and can be scaled on demand. We're now building the worker and observability layer on top of that.
 
-![Microservices example](\static\images\microsservices.png)
+<figure>
+  <img src="\static\images\microsservices.png" class="post-image-full" alt="Microservices example">
+  <figcaption class="post-image-caption">Microservices example</figcaption>
+</figure>
 
 If you want a deeper dive into what microservices are and why we went with this model, check out our [Microservices newsletter](link).
 
@@ -50,7 +57,10 @@ Every submission gets processed by a worker that runs the code inside an isolate
 
 Validation is fully automated and returns a clear status: **success**, **compilation error**, **timeout**, or **test failure**.
 
-![Submit Service FlowChart](\static\images\code-exec.png)
+<figure>
+  <img src="\static\images\code-exec.png" class="post-image-full" alt="Submit Service FlowChart">
+  <figcaption class="post-image-caption">Submit Service FlowChart</figcaption>
+</figure>
 
 ## A database for every job
 
@@ -91,7 +101,10 @@ To design all this and truly understand what we needed, we studied a lot and lea
 
 And of course, a massive shoutout to [**deyvin**](https://www.youtube.com/@manodeyvin) — without him, I’d have totally lost it.
 
-![The besters](\static\images\influencers.png)
+<figure>
+  <img src="\static\images\influencers.png" class="post-image-full" alt="The besters">
+  <figcaption class="post-image-caption">The besters</figcaption>
+</figure>
 
 ## Lessons & next steps
 
