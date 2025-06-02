@@ -46,7 +46,7 @@ export default class extends Document {
           `,
             }}
           />
-          <script defer data-domain="castrogusttavo.vercel.app/welcoming-gusttavo-castro" src="https://plausible.io/js/script.js"></script>
+          <script defer data-domain="castrogusttavo.vercel.app" src="https://plausible.io/js/script.hash.pageview-props.js"></script>
         </Head>
         <Main />
         <NextScript />
