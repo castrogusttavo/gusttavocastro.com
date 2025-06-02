@@ -13,6 +13,7 @@
     "@radix-ui/react-toast": "^1.0.0",
     "@react-email/html": "^0.0.1",
     "@stitches/react": "^1.2.6",
+    "@vercel/analytics": "^1.5.0",
     "date-fns": "^2.21.3",
     "framer-motion": "^6.2.3",
     "googleapis": "^95.0.0",
