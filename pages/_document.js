@@ -2,7 +2,6 @@ import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { getCssText } from '../stitches.config'
 import { GA_TRACKING_ID } from '../lib/gtag'
-import { Analytics } from '@vercel/analytics/next';
 
 export default class extends Document {
   static async getInitialProps(ctx) {
@@ -50,7 +49,6 @@ export default class extends Document {
         </Head>
         <Main />
         <NextScript />
-        <Analytics />
       </Html>
     )
   }
