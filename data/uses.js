@@ -5,14 +5,14 @@ const categories = [
       {
         title: 'Lenovo IdeaPad 3i',
         description:
-          'The i5 chip is just amazing. Plus, 8 GB RAM and 256 GB storage.',
+          'The i5 chip is just amazing. Plus, 16 GB RAM and 512 GB storage.',
         url: 'https://www.amazon.com.br/Notebook-Lenovo-Ultrafin-i5-10210U-82BS000GBR/dp/B09J7TBV8Q',
       },
       {
-        title: 'Microsoft Ocean Plastic Mouse ',
+        title: 'Microsoft Ocean Plastic Mouse',
         description:
           'Nothing fancy here, just an ocean plastic mouse.',
-        url: 'https://www.amazon.com.br/gp/product/B09VX2ZT78/',
+        url: '',
       },
       {
         title: 'Microsoft Surface Compact Keyboard',
@@ -32,29 +32,29 @@ const categories = [
     name: 'Coding',
     items: [
       {
-        title: 'VSCode',
+        title: 'Web Storm',
         description:
           'I really like the flexibility and usability that the editor provides.',
-        url: 'https://code.visualstudio.com',
+        url: 'https://www.jetbrains.com/webstorm/',
       },
       {
-        title: 'Min Theme',
+        title: 'Yaak',
         description:
-          'This is the theme I proudly use everywhere.',
-        url: 'https://github.com/miguelsolorio/min-theme',
+          'I use this to testing my APIs. It is a best Postman alternative.',
+        url: 'https://yaak.io/',
       },
       {
-        title: 'Symbols Icon Theme',
+        title: 'Warp',
         description:
-          'This is the icon theme I use in VSCode.',
-        url: 'https://github.com/miguelsolorio/vscode-symbols',
+          'A modern terminal that I use as my daily driver.',
+        url: 'https://www.warp.dev/',
       },
       {
-        title: 'Geist Mono',
+        title: 'PostgreSQL',
         description:
-          'I absolutely love this monospaced font because of all the ligatures.',
-        url: 'https://vercel.com/font',
-      },
+          'I use PostgreSQL as my main database for all my projects.',
+        url: 'https://www.postgresql.org/',
+      }
     ],
   },
   {
@@ -72,10 +72,10 @@ const categories = [
         url: 'https://obsidian.md/',
       },
       {
-        title: 'Spotify',
+        title: 'Slack',
         description:
-          'I use this to listen to music and podcasts all day long.',
-        url: 'https://www.spotify.com/',
+          'I use Slack for all my work communication.',
+        url: 'https://slack.com/',
       },
       {
         title: 'Excalidraw',
@@ -95,22 +95,32 @@ const categories = [
         url: 'https://github.com',
       },
       {
-        title: 'Prisma',
-        description:
-          'A no-brainer database and auth solution for projects.',
-        url: 'https://prisma.io',
-      },
-      {
-        title: 'Vercel',
-        description:
-          'Here is where I host all my websites. By far the best developer experience.',
-        url: 'https://vercel.com',
-      },
-      {
         title: 'Resend',
         description:
           'I use this to send transactional emails.',
         url: 'https://resend.com',
+      },
+      {
+        title: 'AWS',
+        description:
+          'I use this to host all projects.',
+        url: 'https://aws.amazon.com',
+      },
+      {
+        title: 'Docker',
+        description:
+          'I use Docker for everything. It makes my life so much easier.',
+        url: 'https://www.docker.com/',
+      },
+      {
+        title: 'Stripe',
+        description: 'I integrate payment processing and subscriptions.',
+        url: 'https://stripe.com',
+      },
+      {
+        title: 'Terraform',
+        description: 'I automate infrastructure provisioning as code.',
+        url: 'https://www.terraform.io',
       },
     ],
   },
@@ -126,23 +136,6 @@ const categories = [
     ],
   },
   {
-    name: 'Finance',
-    items: [
-      {
-        title: 'Rico',
-        description:
-          'My favorite investing platform.',
-        url: 'https://www.rico.com.vc/',
-      },
-      {
-        title: 'Coinbase',
-        description:
-          "I'm not obsessed with crypto, but I still have some small investments there. My portfolio is made of ETH, BTC, and SOL.",
-        url: 'https://www.coinbase.com/pt',
-      },
-    ],
-  },
-  {
     name: 'Reading',
     items: [
       {
@@ -151,6 +144,12 @@ const categories = [
           'I read a lot of books on my Kindle app.',
         url: 'https://www.amazon.com.br/b?node=17877530011',
       },
+      {
+        title: 'Books',
+        description:
+          'I read a lot of books, mostly about software engineering and personal development.',
+        url: '',
+      }
     ],
   },
 ]

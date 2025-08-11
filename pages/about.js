@@ -57,8 +57,8 @@ function About(props) {
             I started as a software engineer in 2024, working with Next and Node.
           </Paragraph>
           <Paragraph>
-            I'm the <strong>Founder & CEO</strong> at
-            Softis and Mid-Level TypeScript Developer at code.dev. Before that, I was a Software Developer at Adaptworks. I'm originally
+            I'm the <strong>Developer Experience Engineer</strong> at
+            at code.dev. Before that, I was a Software Developer at Adaptworks. I'm originally
             from Brazil and now living in{' '}
             <strong>Sao Paulo</strong> with my amazing family.
           </Paragraph>
