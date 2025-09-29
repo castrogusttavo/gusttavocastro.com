@@ -21,19 +21,19 @@ export default function Navbar() {
   return (
     <AnimateSharedLayout>
       <Header>
-        <Link href="/" passHref>
+        <Link href="/" passHref style={{ borderBottom: 'none' }}>
           <ButtonLogo as="g">g</ButtonLogo>
         </Link>
 
         <Nav>
-          <List>
+          <List>tsx
             {pages.map(page => {
               const path = `/${page.toLowerCase()}`
               const isHovered = hovered === page
 
               return (
                 <li key={page}>
-                  <Link href={path} passHref>
+                  <Link href={path} passHref style={{ borderBottom: 'none' }}>
                     <Anchor>
                       <NavContainer
                         onHoverStart={() => setHovered(page)}
