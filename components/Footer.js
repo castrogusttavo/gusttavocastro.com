@@ -27,13 +27,13 @@ export default function Footer() {
 
   const renderAnchor = (link, index) => {
     if (link.url.startsWith('http')) {
-      return <Anchor key={index} href={link.url} target="_blank">
+      return <Anchor key={index} href={link.url} target="_blank" className={"no-border"}>
         <Title>{link.title}</Title>
         <Icon className={link.icon} />
       </Anchor>
     }
 
-    return <Link key={index} href={link.url} passHref>
+    return <Link key={index} href={link.url} passHref className={"no-border"}>
       <Anchor>
         <Title>{link.title}</Title>
         <Icon className={link.icon} />
