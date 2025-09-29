@@ -165,6 +165,7 @@ const NavContainer = styled(motion.span, {
   textDecoration: 'none',
   textTransform: 'uppercase',
   transition: 'color $duration ease-in-out',
+  borderBottom: 'none',
   '&:hover': {
     color: '$primary',
   },
