@@ -21,7 +21,7 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
-    getPostBySlug('performance-techniques', featuredParams),
+    getPostBySlug('performance', featuredParams),
     getPostBySlug('codedev-resend', featuredParams),
   ]
 

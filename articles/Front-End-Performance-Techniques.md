@@ -1,7 +1,7 @@
 ---
 title: Front End Performance Techniques
 description: "Improve your website's speed and user experience through these front end performance techniques."
-slug: performance-techniques
+slug: performance
 image: /static/images/performance.png
 date: "2025-09-27"
 ---
