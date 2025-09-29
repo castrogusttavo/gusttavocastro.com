@@ -3,7 +3,7 @@ title: Front End Performance Techniques
 description: "Improve your website's speed and user experience through these front end performance techniques."
 slug: performance-techniques
 image: /static/images/performance.png
-date: "2025-09-28"
+date: "2025-09-27"
 ---
 
 A good website is not only just about aesthetic user interface, optimizing its front end performance is equally important, and in certain domains like e-commerce, checkout conversion performance is highly dependent on website performance.
