@@ -1,0 +1,148 @@
+---
+title: Front End Performance Techniques
+description: "Improve your website's speed and user experience through these front end performance techniques."
+slug: performance-techniques
+image: /static/images/performance.png
+date: "2025-09-28"
+---
+
+A good website is not only just about aesthetic user interface, optimizing its front end performance is equally important, and in certain domains like e-commerce, checkout conversion performance is highly dependent on website performance.
+
+This article presents a collection of underutilized yet effective strategies that you can use to improve your website's speed and user experience. These are useful concepts to know for front end system interviews as well as for your day-to-day work!
+
+## List virtualization
+List virtualization is an optimization technique where only the currently visible items in a long list or large dataset are rendered. This method dynamically loads and unloads elements based on the scroll position.
+
+### Benefits
+1. Reduce memory usage
+2. Reduce initial load time and later
+3. Smoother scrolling and interaction, as the browser is not overloaded
+
+### Implementation
+- Install a virtualization library like react-virtualized.
+- Wrap list in the virtualization component.
+- Set the item count and provide a function to render each visible item based on the scroll position.
+
+### Resources
+- [React Virtualized Documentation](https://bvaughn.github.io/react-virtualized/#/components/List)
+- [List Virtualization | Patterns.dev](https://www.patterns.dev/vanilla/virtual-lists/)
+
+## Bundle/code splitting
+  Both bundle and code splitting are optimization techniques in web development that involve dividing a large codebase into smaller chunks, loading only the necessary chunks at any point of time. This can significantly enhance the performance and efficiency of applications, especially those with extensive codebases or complex dependencies.
+
+### Benefits
+1. Allow browsers to cache parts of the application independently, reducing the need to re-fetch unchanged code
+2. Faster load times and a smoother and more responsive application
+
+### Implementation
+- Use a bundler like Webpack or Vite.
+- Identify split points (e.g., routes or features).
+- Use import() for dynamic imports at these points.
+
+### Resources
+- [Code Splitting | Webpack](https://webpack.js.org/guides/code-splitting/)
+- [Bundle Splitting | Patterns.dev](https://www.patterns.dev/vanilla/bundle-splitting/)
+
+## Dynamic imports / lazy loading
+By implementing dynamic imports, we import code only on interaction, visibility, or navigation. Similar to that, lazy loading is also a popular design pattern that delays the initialization of an object until when it is actually necessary for users. These can help to improve efficiency, especially at times when costly resources are not always used.
+
+### Benefits
+* Reduce initial load time
+* Save bandwidth as unnecessary code or resources are not loaded upfront
+* More responsive applications as the browser's workload is much less
+
+### Implementation
+1. Identify components for lazy loading.
+2. Replace their imports with dynamic `import()` calls.
+3. Use placeholders while components load.
+
+### Resources
+* [Dynamic import | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Dynamic_Imports)
+* [Lazy loading | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)
+
+## Optimize loading sequence
+Optimal loading sequence prioritizes the loading of essential resources, like CSS, fonts, and above-the-fold content. This method carefully orders the loading process, so critical elements are rendered first, enhancing perceived performance. By doing this, non-essential items are deferred, largely boosting efficiency and user satisfaction, especially during page initialization.
+
+### Benefits
+* Faster perceived load time
+* Efficient use of network and browser resources by loading only what's essentially upfront, leading to streamlined resource utilization
+
+### Implementation
+1. Identify critical resources for the initial view.
+2. Use `<link rel="preload">` for these resources in the HTML head.
+3. Lazy load non-critical resources.
+
+### Resources
+* [Optimizing the Critical Rendering Path | Google Developers](https://developers.google.com/web/fundamentals/performance/critical-rendering-path)
+* [rel=preload | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preload)
+
+## Prefetching
+Through the prefetching technique, resources are loaded in the background before they are requested by users. This strategy aims to reduce perceived latency and improve responsiveness by fetching resources ahead of time, based on user behavior patterns or predictive algorithms.
+
+### Benefits
+* Reduce latency
+* Smoother transition between pages or actions
+* Ensure resources are ready before they are needed
+
+### Implementation
+1. Identify resources for future use.
+2. Use `<link rel="prefetch">` to instruct the browser to load these in idle time.
+3. Monitor and adjust based on user behavior.
+
+### Resources
+* [Prefetching - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types#prefetch)
+* [Prefetching resources with rel="prefetch" | Web.dev](https://web.dev/efficiently-load-third-party-javascript/)
+
+## Preloading
+Preloading is where specific resources are identified and loaded early in the page's life cycle, even before the browser requires them. This ensures that critical assets such as scripts, stylesheets, and images are readily available by the time they're needed.
+
+Unlike prefetching, which depends on future navigation, preloading focuses on the current page, strategically speeding up the availability of high-priority resources that are crucial for the immediate next steps. This is particularly useful for resources that are essential for the initial view or interactive features of a page, ensuring a smoother and faster user experience.
+
+### Benefits
+* Immediate availability of critical resources
+* Enhance performance and improve reliability of a critical resources loading process
+
+### Implementation
+1. Determine essential resources for the next steps.
+2. Use `<link rel="preload">` for these resources, specifying the type with `as`.
+
+### Resources
+* [Preloading responsive images | Web.dev](https://web.dev/articles/preload-responsive-images)
+* [Preloading optional fonts | Web.dev](https://web.dev/preload-optional-fonts/)
+
+## Compression
+Compression is a method that reduces file sizes for faster user delivery by eliminating redundant data. This not only quickens load times for web pages and apps but also cuts down on bandwidth and associated costs, similar to how tree shaking, which will be explained below, removes unused code to streamline bundles.
+
+### Benefits
+* Faster data transfer
+* Reduce bandwidth consumption
+* Lower costs
+
+### Implementation
+1. Enable compression on the web server (e.g., Gzip, Brotli).
+2. Compress static assets during the build process.
+3. Ensure compressed files are served with correct headers.
+
+### Resources
+* [Compression in HTTP - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression)
+* [Brotli Compression | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Brotli_compression)
+
+## Tree shaking
+Tree shaking is an optimization technique used to eliminate unused code from the final bundle before deployment. By analyzing the import and export statements in a module structure, static analysis tools can determine which modules and lines of code are not being utilized and remove them.
+
+### Benefits
+* Smaller bundles enhance load times and performance, using fewer resources overall
+* Better maintainability with a cleaner codebase
+*
+### Implementation
+1. Use a bundler that supports tree shaking (e.g., Webpack).
+2. Write code in ES6 modules.
+3. Enable production mode in the bundler to remove unused code.
+
+### Resources
+* [Tree Shaking | Webpack](https://webpack.js.org/guides/tree-shaking/)
+* [Tree Shaking | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking)
+
+![Front End Performance](/static/images/performance_cheatsheet.png)
+
+Optimizing front end performance is important in providing a fast, efficient, and enjoyable user experience. Techniques mentioned above are often powerful yet often underutilized. By carefully implementing these strategies, we can ensure that our applications perform optimally, keeping users engaged and satisfied.
