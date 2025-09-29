@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <AnimateSharedLayout>
       <Header>
-        <Link href="/" passHref style={{ borderBottom: 'none' }}>
+        <Link href="/" passHref style={{ borderBottom: 'none !important' }}>
           <ButtonLogo as="g">g</ButtonLogo>
         </Link>
 
@@ -33,7 +33,7 @@ export default function Navbar() {
 
               return (
                 <li key={page}>
-                  <Link href={path} passHref style={{ borderBottom: 'none' }}>
+                  <Link href={path} passHref style={{ borderBottom: 'none !important' }}>
                     <Anchor>
                       <NavContainer
                         onHoverStart={() => setHovered(page)}
