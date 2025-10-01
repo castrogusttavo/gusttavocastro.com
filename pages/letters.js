@@ -22,7 +22,7 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug('performance-techniques', featuredParams),
-    getPostBySlug('codedev-resend', featuredParams),
+    getPostBySlug('lazy-loading-and-code-splitting', featuredParams),
   ]
 
   return {
