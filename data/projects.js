@@ -21,7 +21,7 @@ const items = [
       {
         title: 'One Thing',
         description: 'Minimalistic focus app.',
-        url: 'onethingfocus.vercel.app',
+        url: 'https://www.focus.coodee.dev',
         active: true,
         icon: 'clipboard-js',
         stats: 'Software',

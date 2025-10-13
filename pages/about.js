@@ -17,7 +17,7 @@ const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 export async function getStaticProps() {
   const meta = {
     title: 'About // Gusttavo Castro',
-    description: 'Gusttavo Castro is a Brazilian software developer. He currently works as a Developer Experience Engineer at code.dev. His passion for building scalable applications and improving Developer Experience (DX) led him to specialize in Node.js and Next.js, while also gaining experience with .NET and Razor. His dedication to testing and security allows him to create robust CI/CD pipelines and reliable RESTful APIs. Before joining code.dev, Gusttavo built multiple applications from scratch and shared his knowledge through LinkedIn, helping other developers enhance their skills and careers.',
+    description: 'Gusttavo Castro is a Brazilian software developer. He currently works as a Developer Experience Engineer at code.dev. His passion for building scalable applications and improving Developer Experience (DX) led him to specialize in Nest.js and Next.js, while also gaining experience with .NET and Razor. His dedication to testing and security allows him to create robust CI/CD pipelines and reliable RESTful APIs. Before joining code.dev, Gusttavo built multiple applications from scratch and shared his knowledge through LinkedIn, helping other developers enhance their skills and careers.',
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/photo.png',
     primaryColor: 'pink',
@@ -56,7 +56,7 @@ function About(props) {
             }}
           >
             <strong>Hey, I'm Gusttavo Castro</strong>
-            I started as a software engineer in 2024, working with Next and Node.
+            I started as a software developer in 2024, working with Next.js and Nest.js.
           </Paragraph>
           <Paragraph>
             I'm the <strong>Developer Experience Engineer</strong> at
