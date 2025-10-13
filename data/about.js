@@ -18,7 +18,7 @@ const items = [
     company: 'Stratus',
     companyUrl: 'https://www.stratustelecom.com.br',
     startDate: '2025-02-10',
-    endDate: '2024-05-31',
+    endDate: '2024-05-10',
     location: 'Sao Paulo, Sao Paulo',
   },
   {
