@@ -94,6 +94,9 @@ const Header = styled('header', {
   zIndex: 3,
   marginTop: '13px',
   '@bp2': { marginTop: '0' },
+  '& a': {
+    border: 'none',
+  },
 })
 
 const List = styled('ul', {
