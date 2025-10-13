@@ -41,7 +41,7 @@ function About(props) {
         <Section>
           <Image
             alt="Gusttavo"
-            src="/static/images/photo.png"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQG1I6Qcv5WWDw/profile-displayphoto-crop_800_800/B4DZgoWIEKGkAI-/0/1753023548350?e=1762992000&v=beta&t=6Ihxy_qMmg5JRgd2SJayFDHoCk1HXJUH1oAe_3mhV44"
             width="336"
             height="336"
             placeholder="blur"
