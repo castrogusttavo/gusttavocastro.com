@@ -3,7 +3,7 @@ title: 100+ React Interview Questions Straight from Ex-interviewers
 description: "100 prioritized React interview questions and answers, carefully selected and prepared by senior engineers and ex-interviewers from leading tech companies."
 slug: 100-react-interview-questions-straight
 image: /static/images/100react.webp
-date: "2025-10-30
+date: "2025-10-30"
 ---
 
 # 100+ React Interview Questions Straight from Ex-interviewers
