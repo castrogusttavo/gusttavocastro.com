@@ -10,7 +10,7 @@ JavaScript is an essential skill for anyone pursuing a career in web development
 
 To support your preparation and build your confidence, we've put together a list of the top 50 must-know JavaScript interview questions and answers frequently encountered in interviews.
 
----
+
 
 ## 1. What is Debouncing in JavaScript?
 
@@ -47,7 +47,7 @@ searchInput.addEventListener('input', debouncedSearch);
 
 While debouncing waits until user activity stops, throttling ensures the function runs at fixed intervals, regardless of how often the event occurs. Each technique suits specific use cases, such as search boxes (debouncing) versus scroll events (throttling).
 
----
+
 
 ## 2. Understanding Promise.all()
 
@@ -77,7 +77,7 @@ Promise.all([promise1, promise2, promise3])
 - **All-or-nothing resolution**: The promise resolves only when all tasks succeed, or it rejects if any one fails
 - **Simplifies workflows**: Ideal for managing interdependent or independent tasks efficiently
 
----
+
 
 ## 3. What is Deep Equal?
 
@@ -131,7 +131,7 @@ console.log(deepEqual(object1, object2)); // true
 
 This function uses recursion to check nested properties, ensuring all values match in both objects or arrays. It's a critical concept for comparing complex data structures in frontend development.
 
----
+
 
 ## 4. Understanding Event Emitters
 
@@ -151,7 +151,7 @@ eventEmitter.emit('customEvent', { message: 'Hello, world!' });
 
 EventEmitter allows flexible communication between components, making it useful in scenarios like state management, logging, or real-time updates.
 
----
+
 
 ## 5. What is Array.prototype.reduce()?
 
@@ -172,7 +172,7 @@ console.log(sum); // Output: 15
 - **Functional programming**: Encourages declarative and clean code
 - **Powerful**: Can replace loops or multiple utility methods in a single chain
 
----
+
 
 ## 6. Simplifying arrays – Flattening
 
@@ -207,7 +207,7 @@ const flatArray = flattenArray(nestedArray);
 console.log(flatArray); // Output: [1, 2, 3, 4, 5]
 ```
 
----
+
 
 ## 7. Merging data structures
 
@@ -301,7 +301,7 @@ const mergedObj = _.merge({}, obj1, obj2);
 console.log(mergedObj); // Output: { a: 1, b: { x: 10, y: 30, z: 40 }, c: 3 }
 ```
 
----
+
 
 ## 8. Selecting DOM Elements – getElementsByClassName
 
@@ -334,7 +334,7 @@ For more complex selectors, use `querySelectorAll`:
 const elements = document.querySelectorAll('.example');
 ```
 
----
+
 
 ## 9. Avoiding redundant computations with memoization
 
@@ -369,7 +369,7 @@ console.log(memoizedExpensiveOperation(5)); // From cache for 5, 10
 
 Libraries like Lodash also provide a memoize utility.
 
----
+
 
 ## 10. Safer nested property access: get
 
@@ -384,7 +384,7 @@ console.log(user.address?.city); // 'New York'
 
 These methods safely retrieve nested properties without crashing the program.
 
----
+
 
 ## 11. Hoisting in JavaScript
 
@@ -452,7 +452,7 @@ import foo from './modules/foo';
 - Declare variables at the top of their scope for better readability
 - Use tools like ESLint to enforce best practices: `no-use-before-define`, `no-undef`
 
----
+
 
 ## 12. What are the differences between JavaScript variables created using let, var, and const?
 
@@ -527,7 +527,7 @@ let bar = 'bar';
 - Avoid `var` due to its hoisting and scoping issues
 - Use tools like ESLint to enforce modern best practices
 
----
+
 
 ## 13. Explain the difference between == and === in JavaScript?
 
@@ -578,7 +578,7 @@ console.log(Object.is(NaN, NaN)); // true
 - Use `===` for strict comparisons to avoid bugs caused by type coercion
 - Rely on `Object.is()` for nuanced comparisons like distinguishing `-0` and `+0`
 
----
+
 
 ## 14. Understanding the Event Loop in JavaScript
 
@@ -626,7 +626,7 @@ Timeout 2
 - Microtasks (`Promise 1`) follow
 - Macrotasks (`Timeout 1`, `Timeout 2`) run last
 
----
+
 
 ## 15. What is Event Delegation in JavaScript?
 
@@ -660,7 +660,7 @@ itemList.addEventListener('click', (event) => {
 - **Efficiency**: Reduces the number of event listeners, improving performance
 - **Dynamic content**: Automatically handles new elements added to the DOM
 
----
+
 
 ## 16. How this works in JavaScript
 
@@ -747,7 +747,7 @@ function Timer() {
 const timer = new Timer();
 ```
 
----
+
 
 ## 17. What sets Cookies, sessionStorage, and localStorage apart?
 
@@ -816,7 +816,7 @@ sessionStorage.removeItem('sessionId');
 sessionStorage.clear();
 ```
 
----
+
 
 ## 18. How do `<script>`, `<script async>`, and `<script defer>` differ?
 
@@ -850,7 +850,7 @@ When using `defer`, the script loads alongside HTML parsing but only executes af
 <script defer src="deferred.js"></script>
 ```
 
----
+
 
 ## 19. What's the difference between null and undefined?
 
@@ -880,7 +880,7 @@ try {
 }
 ```
 
----
+
 
 ## 20. What's the difference between .call() vs .apply()?
 
@@ -903,7 +903,7 @@ console.log(sum.call(null, 1, 2)); // 3
 console.log(sum.apply(null, [1, 2])); // 3
 ```
 
----
+
 
 ## 21. How does Function.prototype.bind work?
 
@@ -936,7 +936,7 @@ const boundGetAgeMary = john.getAge.bind(mary);
 console.log(boundGetAgeMary()); // 21
 ```
 
----
+
 
 ## 22. Why use arrow functions in constructors?
 
@@ -965,7 +965,7 @@ john.sayName2.call(dave); // John
 
 Arrow functions are particularly useful in React class components, ensuring methods maintain the correct context when passed to child components.
 
----
+
 
 ## 23. How does prototypal inheritance work?
 
@@ -1001,7 +1001,7 @@ fido.bark(); // "Woof!"
 fido.sayName(); // "My name is Fido"
 ```
 
----
+
 
 ## 24. Differences between: function Person(){}, const person = Person(), and const person = new Person()?
 
@@ -1011,7 +1011,7 @@ fido.sayName(); // "My name is Fido"
 - **`const person = Person()`**: Calls the function normally and assigns the result to `person`. No object creation happens unless explicitly returned
 - **`const person = new Person()`**: Invokes the function as a constructor, creating a new object and setting its prototype to `Person.prototype`
 
----
+
 
 ## 25. Function declarations vs. Function expressions
 
@@ -1039,7 +1039,7 @@ var foo = function () {
 };
 ```
 
----
+
 
 ## 26. What are the different ways to create objects in JavaScript?
 
@@ -1116,7 +1116,7 @@ const john = new Person('John', 30);
 console.log(john.name); // John
 ```
 
----
+
 
 ## 27. What is a higher-order function?
 
@@ -1149,7 +1149,7 @@ const double = multiplier(2);
 console.log(double(4)); // 8
 ```
 
----
+
 
 ## 28. How do ES2015 classes differ from ES5 constructor functions?
 
@@ -1197,7 +1197,7 @@ john.greet(); // Hi, I'm John and I'm 30 years old.
 - **Static methods**: Easier to define using `static` in ES2015
 - **Inheritance**: Simpler with the `extends` and `super` keywords in ES2015
 
----
+
 
 ## 29. What is event bubbling?
 
@@ -1229,7 +1229,7 @@ child.addEventListener('click', (event) => {
 });
 ```
 
----
+
 
 ## 30. What is event capturing?
 
@@ -1258,7 +1258,7 @@ child.addEventListener('click', () => {
 
 Clicking the child will log "Parent capturing" first, followed by "Child clicked."
 
----
+
 
 ## 31. How do mouseenter and mouseover differ?
 
@@ -1274,7 +1274,7 @@ Clicking the child will log "Parent capturing" first, followed by "Child clicked
 - Triggered when the mouse pointer enters the target element or any of its children
 - Fires multiple events when moving over child elements
 
----
+
 
 ## 32. What's the difference between synchronous and asynchronous functions?
 
@@ -1308,7 +1308,7 @@ fetch('https://api.example.com/data')
 console.log('End');
 ```
 
----
+
 
 ## 33. What is AJAX?
 
@@ -1346,7 +1346,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
   .catch((error) => console.error('Fetch error:', error));
 ```
 
----
+
 
 ## 34. What are the pros and cons of using AJAX?
 
@@ -1362,7 +1362,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 - SEO challenges with dynamically loaded content
 - Bookmarking specific page states becomes difficult
 
----
+
 
 ## 35. What are the differences between XMLHttpRequest and fetch()?
 
@@ -1401,7 +1401,7 @@ fetch('https://example.com/api')
 - `fetch()` has cleaner syntax and better Promise integration
 - `XMLHttpRequest` supports progress tracking, which `fetch()` does not
 
----
+
 
 ## 36. What are the various data types in JavaScript?
 
@@ -1429,7 +1429,7 @@ JavaScript features a mix of primitive and non-primitive (reference) data types.
 
 **Tip**: Use the `typeof` operator to determine the type of a variable.
 
----
+
 
 ## 37. How do you iterate over object properties and array items?
 
@@ -1513,7 +1513,7 @@ for (const [index, element] of arr.entries()) {
 }
 ```
 
----
+
 
 ## 38. What are the benefits of spread syntax, and how is it different from rest syntax?
 
@@ -1563,7 +1563,7 @@ const [first, ...rest] = [1, 2, 3];
 console.log(rest); // [2, 3]
 ```
 
----
+
 
 ## 39. What are the differences between Maps vs. Plain objects?
 
@@ -1591,7 +1591,7 @@ const obj = { key: 'value' };
 console.log(Object.keys(obj).length); // 1
 ```
 
----
+
 
 ## 40. What are the differences between Map/Set and WeakMap/WeakSet
 
@@ -1615,7 +1615,7 @@ weakMap.set(obj, 'value');
 obj = null; // Key is garbage-collected
 ```
 
----
+
 
 ## 41. What are practical use cases for arrow functions?
 
@@ -1634,7 +1634,7 @@ const doubledWithArrow = numbers.map((number) => number * 2);
 console.log(doubledWithArrow); // [2, 4, 6, 8, 10]
 ```
 
----
+
 
 ## 42. What are callback functions in asynchronous operations?
 
@@ -1653,7 +1653,7 @@ fetchData((data) => {
 });
 ```
 
----
+
 
 ## 43. What is debouncing and throttling?
 
@@ -1688,7 +1688,7 @@ function throttle(func, limit) {
 }
 ```
 
----
+
 
 ## 44. How does destructuring assignment work?
 
@@ -1702,7 +1702,7 @@ const [a, b] = [1, 2];
 const { name, age } = { name: 'John', age: 30 };
 ```
 
----
+
 
 ## 45. What is function hoisting?
 
@@ -1722,7 +1722,7 @@ var nonHoistedFunction = function () {
 };
 ```
 
----
+
 
 ## 46. How does inheritance work in ES2015 classes?
 
@@ -1754,7 +1754,7 @@ const dog = new Dog('Rex', 'German Shepherd');
 dog.speak(); // Rex barks.
 ```
 
----
+
 
 ## 47. What is lexical scoping?
 
@@ -1774,7 +1774,7 @@ function outerFunction() {
 outerFunction();
 ```
 
----
+
 
 ## 48. What are scopes in JavaScript?
 
@@ -1797,7 +1797,7 @@ function myFunction() {
 }
 ```
 
----
+
 
 ## 49. What is the spread operator?
 
@@ -1821,7 +1821,7 @@ const nums = [1, 2, 3];
 sum(...nums); // 6
 ```
 
----
+
 
 ## 50. How does this work in event handlers?
 
@@ -1841,13 +1841,13 @@ const obj = {
 button.addEventListener('click', obj.handleClick.bind(obj));
 ```
 
----
+
 
 ## Conclusion
 
 Congratulations on reaching the end of our comprehensive collection of JavaScript interview questions and answers! We hope this guide has equipped you with the knowledge and confidence needed to excel in your next JavaScript interview. Keep in mind that consistent practice is essential. Continue coding and revisiting these concepts until they feel effortless.
 
----
+
 
 > **Additional Resources:**
 > - Front End Interview Playbook

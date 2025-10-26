@@ -10,13 +10,13 @@ As a JavaScript developer with 2 years of experience, you've already demonstrate
 
 To help you prepare and showcase your expertise, we've curated a list of 30 JavaScript interview questions that are tailored to your level of experience. These questions cover advanced topics such as performance optimization, design patterns, and more, and are designed to help you demonstrate your skills and confidence in your next interviews.
 
----
+
 
 ## 1. Explain the concept of caching and how it can be used to improve performance
 
 Caching involves storing copies of files or data temporarily to speed up access times. It enhances performance by minimizing the frequency of fetching data from its original source. In web development, caching techniques include utilizing browser caches, service workers, and HTTP headers such as Cache-Control to effectively implement this optimization.
 
----
+
 
 ## 2. Explain the concept of lazy loading and how it can improve performance
 
@@ -26,13 +26,13 @@ Lazy loading is a design approach that defers the loading of resources until the
 <img src="image.jpg" loading="lazy" alt="Lazy loaded image" />
 ```
 
----
+
 
 ## 3. What are design patterns and why are they useful?
 
 Design patterns offer reusable solutions to typical software design challenges, serving as a blueprint for solving problems across various contexts. They are beneficial as they guide developers in sidestepping common issues, enhancing code clarity, and simplifying the maintenance and scalability of applications.
 
----
+
 
 ## 4. Explain the concept of the Prototype pattern
 
@@ -51,7 +51,7 @@ newObject.greet(); // Outputs: Hello, world!
 
 This pattern allows objects to inherit properties and methods from a prototype, promoting code reuse and maintaining a clear structure in object-oriented programming.
 
----
+
 
 ## 5. Explain the concept of the Singleton pattern
 
@@ -75,7 +75,7 @@ console.log(instance1 === instance2); // true
 
 This pattern is useful in scenarios like managing configurations, logging, and resource sharing across an application.
 
----
+
 
 ## 6. What is the Factory pattern and how is it used?
 
@@ -96,7 +96,7 @@ const cat = createAnimal('cat');
 
 This approach promotes code flexibility and modularity by centralizing object creation logic.
 
----
+
 
 ## 7. Explain the Observer pattern and its use cases
 
@@ -108,7 +108,7 @@ The Observer pattern is a design pattern where an object, called the subject, ma
 
 It enables components to react dynamically to changes without explicitly knowing each other.
 
----
+
 
 ## 8. What is the Decorator pattern and how is it used?
 
@@ -142,7 +142,7 @@ const myCarWithGPS = new GPSDecorator(myCar);
 console.log(myCarWithGPS.drive()); // Outputs: "Driving with GPS"
 ```
 
----
+
 
 ## 9. Explain the concept of the Strategy pattern
 
@@ -180,7 +180,7 @@ context.strategy = new ConcreteStrategyB();
 console.log(context.execute(data)); // Outputs: [3, 2, 1]
 ```
 
----
+
 
 ## 10. What is the Command pattern and how is it used?
 
@@ -225,7 +225,7 @@ lightOnCommand.execute(); // Light is on
 lightOnCommand.undo(); // Light is off
 ```
 
----
+
 
 ## 11. What is the Module pattern and how does it help with encapsulation?
 
@@ -249,7 +249,7 @@ var myModule = (function () {
 myModule.publicMethod(); // Logs: I am private
 ```
 
----
+
 
 ## 12. How can you avoid problems related to hoisting?
 
@@ -271,7 +271,7 @@ function myFunction() {
 myFunction();
 ```
 
----
+
 
 ## 13. How can you share code between JavaScript files?
 
@@ -301,7 +301,7 @@ const greet = require('./file1.js');
 greet();
 ```
 
----
+
 
 ## 14. How do you get the query string values of the current page in JavaScript?
 
@@ -320,7 +320,7 @@ console.log(keyValue); // Outputs: 'value'
 console.log(fooValue); // Outputs: 'bar'
 ```
 
----
+
 
 ## 15. How do you handle errors in asynchronous operations?
 
@@ -351,7 +351,7 @@ fetch('https://api.example.com/data')
   .catch(error => console.error('Error fetching data:', error.message));
 ```
 
----
+
 
 ## 16. How do you manipulate CSS styles using JavaScript?
 
@@ -370,7 +370,7 @@ document.getElementById('myDiv').classList.remove('oldClass');
 document.getElementById('myDiv').classList.toggle('toggleClass');
 ```
 
----
+
 
 ## 17. What are the common pitfalls of using the this keyword?
 
@@ -382,13 +382,13 @@ Using the `this` keyword can be tricky because its value depends on the function
 
 To address these issues, developers often use methods like `.bind()`, arrow functions, or store `this` context in a variable.
 
----
+
 
 ## 18. What is the DOM and how is it structured?
 
 The DOM, or Document Object Model, is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM is structured as a tree of objects, where each node represents part of the document, such as elements, attributes, and text nodes.
 
----
+
 
 ## 19. What do you think of AMD vs CommonJS?
 
@@ -396,7 +396,7 @@ The DOM, or Document Object Model, is a programming interface for web documents.
 
 **CommonJS**, geared towards server-side environments like Node.js, employs `module.exports` and `require()` for synchronous module loading.
 
----
+
 
 ## 20. What are the different ways to make an API call in JavaScript?
 
@@ -404,7 +404,7 @@ The DOM, or Document Object Model, is a programming interface for web documents.
 - **fetch**: Modern approach that returns promises
 - **Axios**: Third-party library that simplifies API calls and offers additional features
 
----
+
 
 ## 21. What are some tools that can be used for JavaScript testing?
 
@@ -413,14 +413,14 @@ The DOM, or Document Object Model, is a programming interface for web documents.
 - **Jasmine**: Known for its straightforward setup and BDD approach
 - **Cypress**: Excels in end-to-end testing with real browser interactions
 
----
+
 
 ## 22. What is the difference between event.preventDefault() and event.stopPropagation()?
 
 - **event.preventDefault()**: Prevents the default action of an event (e.g., stopping a form submission)
 - **event.stopPropagation()**: Prevents the event from bubbling up to parent elements
 
----
+
 
 ## 23. What is the difference between innerHTML and textContent?
 
@@ -432,14 +432,14 @@ element.innerHTML = '<strong>Bold Text</strong>'; // Renders as bold text
 element.textContent = '<strong>Bold Text</strong>'; // Renders as plain text: <strong>Bold Text</strong>
 ```
 
----
+
 
 ## 24. What is the difference between the window object and the document object?
 
 - **window object**: Represents the browser window, offering methods to control it (e.g., opening new windows, accessing browser history)
 - **document object**: Represents the web page's content within the window, providing methods to manipulate the DOM (e.g., selecting elements, modifying content)
 
----
+
 
 ## 25. What is the difference between setTimeout(), setImmediate(), and process.nextTick()?
 
@@ -455,7 +455,7 @@ process.nextTick(() => console.log('nextTick'));
 
 In this example, `process.nextTick()` executes first, followed by either `setTimeout()` or `setImmediate()` depending on the environment.
 
----
+
 
 ## 26. How do you use window.history API?
 
@@ -474,7 +474,7 @@ history.forward(); // Go forward one step
 history.go(-2); // Go back two steps
 ```
 
----
+
 
 ## 27. What are the pros and cons of using Promises instead of callbacks in JavaScript?
 
@@ -488,7 +488,7 @@ history.go(-2); // Go back two steps
 
 - **Slightly More Complex**: Some developers find promises marginally more complex compared to straightforward callbacks
 
----
+
 
 ## 28. What are the metadata fields of a module?
 
@@ -507,7 +507,7 @@ Metadata fields of a module often include the module's name, version, descriptio
 }
 ```
 
----
+
 
 ## 29. What are the different types of errors in JavaScript?
 
@@ -515,7 +515,7 @@ Metadata fields of a module often include the module's name, version, descriptio
 2. **Runtime Errors**: Happen during code execution (e.g., trying to access a property of undefined)
 3. **Logical Errors**: Mistakes in the code's logic that lead to incorrect results without throwing an error
 
----
+
 
 ## 30. Explain the concept of error propagation in JavaScript
 
@@ -539,7 +539,7 @@ try {
 
 In this example, the error thrown in function `a` propagates to function `b` and is caught in the `try...catch` block.
 
----
+
 
 ## Conclusion
 
