@@ -21,8 +21,14 @@ export async function getStaticProps() {
   ]
 
   const featuredPosts = [
-    getPostBySlug('performance-techniques', featuredParams),
-    getPostBySlug('lazy-loading-and-code-splitting', featuredParams),
+    getPostBySlug(
+      '50-must-know-javascript-interview-questions',
+      featuredParams
+    ),
+    getPostBySlug(
+      'javascript-interview-questions-for-2-years-of-experience',
+      featuredParams
+    ),
   ]
 
   return {
@@ -82,8 +88,14 @@ function Articles(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://castrogusttavo.com/articles" property="og:url" />
-        <meta content={`https://castrogusttavo.com${image}`} property="og:image" />
+        <meta
+          content="https://castrogusttavo.com/articles"
+          property="og:url"
+        />
+        <meta
+          content={`https://castrogusttavo.com${image}`}
+          property="og:image"
+        />
       </Head>
 
       <AnimateSharedLayout>
