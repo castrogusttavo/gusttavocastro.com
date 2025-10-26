@@ -2,7 +2,7 @@
 title: JavaScript Interview Questions for 2 Years of Experience
 description: "Explore a list of JavaScript interview questions and answers tailored for engineers with 2 years of experience, curated by big tech senior engineers."
 slug: javascript-interview-questions-for-2-years-of-experience
-image: /static/images/js2.webp
+image: /static/images/js2.png
 date: "2025-10-27"
 ---
 

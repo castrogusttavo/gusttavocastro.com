@@ -2,9 +2,9 @@
 title: 50 Must-know JavaScript Interview Questions by Ex-interviewers
 description: "50 essential JavaScript coding interview questions and answers, curated by senior engineers and former interviewers from leading tech companies."
 slug: 50-must-know-javascript-interview-questions
-image: /static/images/50questions.webp
+image: /static/images/50questions.png
 date: "2025-10-25"
-
+---
 
 JavaScript is an essential skill for anyone pursuing a career in web development, but securing a job in this field can be particularly challenging for newcomers. A critical part of the hiring process is the technical interview, where your JavaScript expertise will be thoroughly evaluated.
 
