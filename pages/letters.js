@@ -1,12 +1,12 @@
-import { styled } from '../stitches.config'
+import { AnimateSharedLayout } from 'framer-motion'
 import Head from 'next/head'
-import Base from '../layouts/Base'
-import stripHtml from '../lib/strip-html'
-import { getAllPosts, getPostBySlug } from '../lib/blog'
-import ListItem from '../components/ListItem'
 import FeaturedArticle from '../components/FeaturedArticle'
 import { ListGroup } from '../components/ListGroup'
-import { AnimateSharedLayout } from 'framer-motion'
+import ListItem from '../components/ListItem'
+import Base from '../layouts/Base'
+import { getAllPosts, getPostBySlug } from '../lib/blog'
+import stripHtml from '../lib/strip-html'
+import { styled } from '../stitches.config'
 
 export async function getStaticProps() {
   const allPosts = getAllPosts(['date', 'skip', 'slug', 'title'])
@@ -22,11 +22,11 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug(
-      '50-must-know-javascript-interview-questions',
+      'the-problem-inst-leetcode',
       featuredParams
     ),
     getPostBySlug(
-      'javascript-interview-questions-for-2-years-of-experience',
+      'developer-experience',
       featuredParams
     ),
   ]
