@@ -22,11 +22,11 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug(
-      'the-problem-inst-leetcode',
+      'software-architecture',
       featuredParams
     ),
     getPostBySlug(
-      'developer-experience',
+      'the-problem-inst-leetcode',
       featuredParams
     ),
   ]
