@@ -58,11 +58,11 @@ It's not.
 
 It happens in two layers:
 
-###Frontend -> Backend (API level)
+### Frontend -> Backend (API level)
 
 Multiple HTTP calls
 
-###Backend -> Database (DB level)
+### Backend -> Database (DB level)
 
 Multiple queries
 
@@ -108,7 +108,7 @@ It's network round trips.
 
 Even if everything is "fast", latency stacks.
 
-###First instinct solutions
+### First instinct solutions
 
 You start inventing endpoints:
 - ``GET /users-with-posts``
