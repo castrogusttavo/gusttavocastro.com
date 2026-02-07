@@ -48,7 +48,7 @@ If you have 50 users:
 
 Congratulations, you reinvented dial-up.
 
-[diagrama](/static/images/diagram/n1-example.png)
+![diagrama](/static/images/diagram/n1-example.png)
 
 ## Where it happens (twice, which is worse)
 
@@ -70,7 +70,7 @@ And yes, you can have both at the same time.
 
 A masterpiece on inefficiency.
 
-[diagrama2](/static/images/diagram/back-front-db.png)
+![diagrama2](/static/images/diagram/back-front-db.png)
 
 That's multiplicative pain, not additive.
 
@@ -163,7 +163,7 @@ One request. Nested data.
 
 Backend figures it out.
 
-[diagrama3](/static/images/diagram/graphql-example.png)
+![diagrama3](/static/images/diagram/graphql-example.png)
 
 Important nuance:
 GraphQL solves the API N+1, not automatically the DB N+1.
@@ -228,7 +228,7 @@ Different names, same idea.
 
 One query instead of N.
 
-[diagrama4](/static/images/diagram/join-example.png)
+![diagrama4](/static/images/diagram/join-example.png)
 
 ### Batch by IDs
 
