@@ -22,11 +22,11 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug(
-      'the-hidden-n1-that-s-slowing-down-your-frontend',
+      'mvc-foi-suficiente-ate-nao-ser-mais',
       featuredParams
     ),
     getPostBySlug(
-      'software-architecture',
+      'divida-de-8k-na-azure',
       featuredParams
     ),
   ]
