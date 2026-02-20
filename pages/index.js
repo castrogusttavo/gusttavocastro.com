@@ -1,11 +1,11 @@
-import { styled } from '../stitches.config'
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import { PostContainer, PostContent, PostMain } from '../components/Post'
 import ShortcutHome from '../components/ShortcutHome'
-import { PostMain, PostContent, PostContainer } from '../components/Post'
 import { Wrapper } from '../components/Wrapper'
 import { getPersonJsonLd } from '../lib/json-ld'
+import { styled } from '../stitches.config'
 
 export async function getStaticProps() {
   return {
@@ -45,8 +45,8 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>Developer Experience Engineer at{' '}
-                  <a href="https://www.coodee.dev" target="blank">code.dev</a>
+                <strong>Mid-Level Backend Software Developer at{' '}
+                  <a href="https://www.stratustelecom.com.br" target="blank">Stratus</a>
                 </strong><br />
                 {description}
               </p>
