@@ -1,24 +1,23 @@
-import { styled } from '../stitches.config'
-import React from 'react'
+import { format, intervalToDuration, parseISO } from 'date-fns'
+import dynamic from "next/dynamic";
 import Head from 'next/head'
 import Image from 'next/image'
-import { parseISO, format, intervalToDuration } from 'date-fns'
-import Base from '../layouts/Base'
+import React from 'react'
 import { ButtonPrimary } from '../components/ButtonPrimary'
 import Toast from '../components/Toast'
-import stripHtml from '../lib/strip-html'
 import items from '../data/about'
-import dynamic from "next/dynamic";
+import Base from '../layouts/Base'
+import stripHtml from '../lib/strip-html'
 import copyBioIcon from '../public/static/icons/copy-bio.json'
 import downloadIcon from '../public/static/icons/download.json'
+import { styled } from '../stitches.config'
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 export async function getStaticProps() {
   const meta = {
     title: 'About // Gusttavo Castro',
-    description: 'Gusttavo Castro is a Brazilian software developer. He currently works as a Developer Experience Engineer at code.dev. His passion for building scalable applications and improving Developer Experience (DX) led him to specialize in Nest.js and Next.js, while also gaining experience with .NET and Razor. His dedication to testing and security allows him to create robust CI/CD pipelines and reliable RESTful APIs. Before joining code.dev, Gusttavo built multiple applications from scratch and shared his knowledge through LinkedIn, helping other developers enhance their skills and careers.',
-    tagline: 'Create. Share. Repeat.',
+    description: 'Gusttavo Castro is a Backend Software Developer focused on designing and operating scalable systems in production environments.He works across the full backend lifecycle — from database modeling and API design to containerized deployments and production reliability.Experienced with event-driven architectures and distributed systems, he builds maintainable services using solid architectural principles while balancing scalability, performance and delivery speed.Currently working as a Developer Experience Engineer at code.dev, contributing to platform architecture and system evolution.',
     image: '/static/images/photo.png',
     primaryColor: 'pink',
     secondaryColor: 'purple',
@@ -56,11 +55,11 @@ function About(props) {
             }}
           >
             <strong>Hey, I'm Gusttavo Castro</strong>
-            I started as a software developer in 2024, working with Next.js and Nest.js.
+            I started as a software developer in 2024, working with Next.js and Fastify.
           </Paragraph>
           <Paragraph>
-            I'm the <strong>Developer Experience Engineer</strong> at
-            at code.dev. Before that, I was a Software Developer at Adaptworks. I'm originally
+            I'm the <strong>Mid-Level Backend Software Developer</strong> at
+            at <a href="https://stratustelecom.com.br">Stratus Telecom</a>. Before that, I was a Software Developer at Adaptworks. I'm originally
             from Brazil and now living in{' '}
             <strong>Sao Paulo</strong> with my amazing family.
           </Paragraph>
