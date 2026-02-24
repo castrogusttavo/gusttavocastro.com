@@ -1,9 +1,9 @@
 ---
 title: Como construímos um sistema completo em 3 semanas
 description: "Como estruturamos um app desktop em Go e um painel web em PHP em apenas 3 semanas, priorizando escopo disciplinado, decisões pragmáticas e validação real de mercado antes de sofisticar a arquitetura."
-slug: feature-flag-em-sistemas-multi-tenant
+slug: sass-em-3-dias
 image: /static/images/app-3-semanas.png
-date: "2026-02-24"
+date: "2026-03-18"
 ---
 
 Não foi milagre.
