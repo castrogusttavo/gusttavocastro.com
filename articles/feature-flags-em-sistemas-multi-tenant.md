@@ -1,7 +1,7 @@
 ---
 title: Feature Flags em sistema multi-tenant não são opcional. São estrutura
 description: "Como implementamos Feature Flags em um sistema multi-tenant com cloud e self-hosting para controlar rollout, reduzir risco operacional e manter uma única codebase sem virar caos."
-slug: feature-flag-em-sistemas-multi-tenant
+slug: feature-flags-em-sistemas-multi-tenant
 image: /static/images/feature-flags.png
 date: "2026-03-05"
 ---
