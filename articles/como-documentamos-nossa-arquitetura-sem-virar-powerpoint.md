@@ -3,7 +3,7 @@ title: Como documentamos nossa arquitetura sem virar PowerPoint
 description: "Uma arquitetura bem desenhada não significa nada se ninguém lembra por que as decisões foram tomadas."
 slug: como-documentamos-nossa-arquitetura-sem-virar-powerpoint
 image: /static/img/APP-ARCH.png
-date: "2025-03-16"
+date: "2026-03-16"
 ---
 
 # Como documentamos nossa arquitetura sem virar PowerPoint
