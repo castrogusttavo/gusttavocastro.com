@@ -10,7 +10,7 @@ date: "2026-03-16"
 
 Toda equipe que começa um produto novo faz a mesma coisa.
 
-Alguém abre o Figma, desenha um diagrama bonito da arquitetura, coloca algumas caixas representando serviços e conecta tudo com algumas setas. O diagrama entra em um slide, aparece em uma apresentação e pronto — a arquitetura está “documentada”.
+Alguém abre o Excalidraw, desenha um diagrama bonito da arquitetura, coloca algumas caixas representando serviços e conecta tudo com algumas setas. O diagrama entra em um slide, aparece em uma apresentação e pronto — a arquitetura está “documentada”.
 
 Algumas semanas depois surge a primeira pergunta real.
 
@@ -28,7 +28,7 @@ O objetivo nunca foi criar apenas diagramas de arquitetura. O objetivo era regis
 
 # Contexto
 
-Nexo é uma plataforma de gerenciamento de projetos inspirada em ferramentas como Jira, Linear e Plane.
+Nexo é uma plataforma de gerenciamento de projetos inspirada em ferramentas como Jira, Linear e Trello.
 
 A proposta é reunir em uma única aplicação funcionalidades que normalmente estão espalhadas em diferentes ferramentas:
 
@@ -241,8 +241,7 @@ Os módulos são organizados por domínio:
 * docs
 * projects
 * workspaces
-* cycles
-* analytics
+* ...
 
 Uma regra arquitetural importante foi definida aqui:
 
