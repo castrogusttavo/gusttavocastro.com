@@ -22,11 +22,11 @@ export async function getStaticProps() {
 
   const featuredPosts = [
     getPostBySlug(
-      'mvc-foi-suficiente-ate-nao-ser-mais',
+      'como-documentamos-nossa-arquitetura-sem-virar-powerpoint',
       featuredParams
     ),
     getPostBySlug(
-      'divida-de-8k-na-azure',
+      'mvc-foi-suficiente-ate-nao-ser-mais',
       featuredParams
     ),
   ]
