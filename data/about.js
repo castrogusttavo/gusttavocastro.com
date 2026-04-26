@@ -1,13 +1,13 @@
 const items = [
   {
-    jobTitle: 'Software Developer',
+    jobTitle: 'Mid-Level Backend Developer',
     company: 'Stratus',
     companyUrl: 'https://www.stratustelecom.com.br',
     startDate: '2026-02-01',
     location: 'Sao Paulo, Sao Paulo',
   },
   {
-    jobTitle: 'Full-Stack Software Developer',
+    jobTitle: 'Jr. Software Developer',
     company: 'Stratus',
     companyUrl: 'https://www.stratustelecom.com.br',
     startDate: '2025-02-10',

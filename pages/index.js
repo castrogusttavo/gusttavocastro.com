@@ -45,7 +45,7 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>Mid-Level Backend Software Developer at{' '}
+                <strong>Mid-Level Backend Developer at{' '}
                   <a href="https://www.stratustelecom.com.br" target="blank">Stratus</a>
                 </strong><br />
                 {description}
