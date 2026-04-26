@@ -3,45 +3,32 @@ const categories = [
     name: 'Desk',
     items: [
       {
-        title: 'Lenovo IdeaPad 3i',
+        title: 'Notebook Acer Aspire GO 15 ',
         description:
-          'The i5 chip is just amazing. Plus, 16 GB RAM and 512 GB storage.',
-        url: 'https://www.amazon.com.br/Notebook-Lenovo-Ultrafin-i5-10210U-82BS000GBR/dp/B09J7TBV8Q',
+          'The i5 chip is just amazing. Plus, 16 GB RAM and 1TB GB storage.',
+        url: 'https://br-store.acer.com/notebook-acer-ag15-71p-53d9-ci513420h-16gb-512gb-ssd-agpos-green-fhd-15-6-nx-jh6al-001/p?srsltid=AfmBOopsPZp7xwFJkf1_fOFX3mbZBk1SjoSTu5JHxhEKHTF33lXX0Vj2',
       },
       {
-        title: 'Microsoft Ocean Plastic Mouse',
-        description:
-          'Nothing fancy here, just an ocean plastic mouse.',
-        url: '',
-      },
-      {
-        title: 'Microsoft Surface Compact Keyboard',
-        description:
-          'I love the compact design and the soft touch.',
-        url: 'https://www.microsoft.com/en-us/d/surface-keyboard/8r3rqvvflp4k?activetab=pivot:overviewtab',
-      },
-      {
-        title: 'Faux Leather Mouse Pad',
-        description:
-          'I like the feel of leather and the glide of the mouse over it..',
-        url: 'https://www.amazon.com.br/gp/product/B0CV8MDKPM/',
-      },
+        title: 'Fedora KDE Plasma OS',
+        description: 'A customizable high-quality desktop, built on the latest open source technology. Trusted, powerful and easy.',
+        url: 'https://fedoraproject.org/kde/',
+      }
     ],
   },
   {
     name: 'Coding',
     items: [
       {
-        title: 'Web Storm',
+        title: 'Zed',
         description:
-          'I really like the flexibility and usability that the editor provides.',
-        url: 'https://www.jetbrains.com/webstorm/',
+          'Zed is a minimal code editor crafted for speed and collaboration with humans and AI.',
+        url: 'https://zed.dev/',
       },
       {
-        title: 'Yaak',
+        title: 'Postman',
         description:
-          'I use this to testing my APIs. It is a best Postman alternative.',
-        url: 'https://yaak.io/',
+          'Develop, test, manage, and distribute APIs and services. Built for engineers. Designed for enterprise scale.',
+        url: 'https://www.postman.com/',
       },
       {
         title: 'Warp',
@@ -50,10 +37,10 @@ const categories = [
         url: 'https://www.warp.dev/',
       },
       {
-        title: 'PostgreSQL',
+        title: 'DataGrip',
         description:
-          'I use PostgreSQL as my main database for all my projects.',
-        url: 'https://www.postgresql.org/',
+          'Your powerful cross-platform IDE for relational and NoSQL databases',
+        url: 'https://www.jetbrains.com/datagrip/',
       }
     ],
   },
@@ -113,9 +100,9 @@ const categories = [
         url: 'https://www.docker.com/',
       },
       {
-        title: 'Stripe',
+        title: 'AbacatePay',
         description: 'I integrate payment processing and subscriptions.',
-        url: 'https://stripe.com',
+        url: 'https://www.abacatepay.com/',
       },
       {
         title: 'Terraform',
