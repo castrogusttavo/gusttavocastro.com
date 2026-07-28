@@ -1,6 +1,6 @@
 ---
 title: git commit -m 'first commit'
-description: ""
+description: "Como desenhamos a arquitetura do code.dev desde o primeiro commit: microsserviços, execução isolada em containers, filas assíncronas e observabilidade desde o dia zero."
 slug: git-commit-first-commit
 image: /static/images/first-commit.png
 date: "2025-05-23"
