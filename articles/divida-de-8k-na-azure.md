@@ -31,7 +31,7 @@ Era sistêmico:
 - Ausência de métricas por endpoint
 - Nenhum alerta baseado em taxa de aquisição
 
-Sem visibilidade, custou virou variável invisível.
+Sem visibilidade, custo virou variável invisível.
 
 ## O que a observabilidade revelou
 
@@ -80,17 +80,17 @@ Criamos:
 - Fixture reutilizáveis
 - Massa de dados representativa
 
-Eliminamos dependência de dados dinâmicos em cloud para validar a regrar de negócio.
+Eliminamos dependência de dados dinâmicos em cloud para validar a regra de negócio.
 
 ### Test Doubles
 Adotamos:
-- Mocks para valida interação
+- Mocks para validar interação
 - Stubs para respostas determinísticas
 - Fakes para simular integrações externas críticas
 
 Mas aqui existe risco: drift.
 
-Se o fake evolui diferente do serviço real, você cri segurança ilusória.
+Se o fake evolui diferente do serviço real, você cria segurança ilusória.
 
 ## Evitando drift entre fake e serviço real
 Medidas adotadas:
@@ -112,7 +112,7 @@ Roda integração real quando:
 - Próximo de release em produção
 
 Não rodar integração real quando:
-- Testar regrar de negócio isolada
+- Testar regra de negócio isolada
 - Validar comportamento interno
 - Executar CI de alta frequência
 
@@ -127,7 +127,7 @@ Não execução automática.
 
 Aprendizado central:
 
-Arquitetura não é só design patter.
+Arquitetura não é só design pattern.
 É controle de risco operacional.
 
 Cloud não pune quem escala.
