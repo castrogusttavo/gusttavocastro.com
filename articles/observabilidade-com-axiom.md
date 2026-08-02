@@ -3,7 +3,7 @@ title: Observabilidade não é dashboard. É a pergunta que alguém vai fazer da
 description: "Como estruturamos observabilidade em três camadas — métricas, erro individual e evento auditável — e por que a peça que mais importou não foi a ferramenta, foi o schema."
 slug: observabilidade-com-axiom
 image: /static/images/observabilidade-axiom.png
-date: "2026-07-31"
+date: "2026-07-07"
 ---
 
 Já contamos aqui como observabilidade nos mostrou onde o dinheiro estava vazando na Azure.

@@ -3,7 +3,7 @@ title: 13 chamadas de console.log e nenhuma resposta para "quem fez o quê, quan
 description: "Como estruturamos trilha de auditoria para SOC2, ISO 27001 e LGPD: por que a auditoria vive na camada de service e não no repositório, e por que retenção de dado não é decisão de código."
 slug: audit-logging-soc2-iso-lgpd
 image: /static/images/audit-logging.png
-date: "2026-08-17"
+date: "2026-07-20"
 ---
 
 Já contamos aqui como estruturamos observabilidade em camadas — métrica, erro individual, evento auditável.

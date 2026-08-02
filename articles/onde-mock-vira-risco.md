@@ -3,7 +3,7 @@ title: Mock não é atalho de teste. É risco que você está pagando sem perceb
 description: "Test doubles não são todos iguais, e tratá-los como sinônimos é a origem da falsa sensação de segurança em testes. Um mergulho em quando usar dummy, stub, spy, mock, fake — e por que contract tests existem."
 slug: onde-mock-vira-risco
 image: /static/images/test-doubles-risco.png
-date: "2026-07-27"
+date: "2026-07-04"
 ---
 
 Já contamos aqui como fakes sem governança geraram falsa sensação de segurança e quase custaram caro. Isso merecia um artigo próprio.

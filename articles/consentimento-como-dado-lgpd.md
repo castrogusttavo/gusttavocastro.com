@@ -3,7 +3,7 @@ title: Consentimento não é um checkbox no signup. É um evento com dono, vers�
 description: "Como modelamos consentimento LGPD/GDPR como dado desde a primeira onda — antes de qualquer tela existir — e o bug que quase deixou o gate inteiro inútil."
 slug: consentimento-como-dado-lgpd
 image: /static/images/consentimento-lgpd.png
-date: "2026-08-20"
+date: "2026-07-23"
 ---
 
 Antes: "Ao criar sua conta você concorda com nossos termos", texto plano, sem checkbox, sem registro de quando ou de qual versão.

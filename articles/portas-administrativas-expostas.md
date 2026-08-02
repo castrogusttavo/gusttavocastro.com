@@ -3,7 +3,7 @@ title: Porta administrativa aberta não é bug. É configuração padrão que ni
 description: "Como restringimos o console do MinIO e a UI de management do RabbitMQ ao loopback do servidor — e por que nada ter acontecido até agora não era evidência de que estava seguro."
 slug: portas-administrativas-expostas
 image: /static/images/portas-administrativas.png
-date: "2026-08-03"
+date: "2026-07-09"
 ---
 
 O console administrativo do MinIO e a UI de management do RabbitMQ estavam acessíveis publicamente desde o primeiro dia.

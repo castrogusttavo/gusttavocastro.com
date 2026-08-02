@@ -3,7 +3,7 @@ title: Tiramos o RabbitMQ do ar. Ninguém notou — porque ninguém nunca usou
 description: "RabbitMQ rodava desde o início sem nenhum cliente Node conectado a ele. Por que infraestrutura ociosa não é neutra, e por que trocamos por BullMQ sobre o Redis que já existia."
 slug: por-que-tiramos-o-rabbitmq
 image: /static/images/rabbitmq-bullmq.png
-date: "2026-08-10"
+date: "2026-07-15"
 ---
 
 RabbitMQ estava no `docker-compose` desde o início. Porta AMQP aberta, volume dedicado, container saudável.

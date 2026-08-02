@@ -3,7 +3,7 @@ title: Cache não lança exceção. Cache vira miss
 description: "Como estruturamos duas camadas independentes de cache — Redis de aplicação e cache de RSC do Next — e por que a regra mais importante nunca foi sobre armazenar, foi sobre invalidar e sobre nunca deixar uma falha de cache virar falha de request."
 slug: cache-full-stack-invalidacao
 image: /static/images/cache-invalidacao.png
-date: "2026-08-27"
+date: "2026-07-29"
 ---
 
 Cache parece um problema de armazenamento. Guardar o dado certo, no lugar certo, pelo tempo certo.

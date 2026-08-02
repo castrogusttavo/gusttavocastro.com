@@ -3,7 +3,7 @@ title: Rate limit não é sobre bloquear abuso. É sobre decidir quem sofre quan
 description: "Como implementamos rate limiting em três superfícies (auth, email, API) e por que a decisão mais importante não foi a biblioteca, foi o que acontece quando o Redis fica indisponível."
 slug: rate-limit-em-auth-email-e-api
 image: /static/images/rate-limit-auth.png
-date: "2026-07-24"
+date: "2026-07-01"
 ---
 
 Antes disso, qualquer endpoint de autenticação, envio de e-mail ou rota de API estava sem nenhuma proteção.

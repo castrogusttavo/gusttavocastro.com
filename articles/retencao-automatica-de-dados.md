@@ -3,7 +3,7 @@ title: Recomendei 7 dias de retenção. Guardamos 30. Os dois números estavam c
 description: "Como automatizamos a limpeza de sessões e tokens de verificação expirados — e por que o número final de dias não veio só da lei, veio de uma conversa sobre o que estávamos otimizando."
 slug: retencao-automatica-de-dados
 image: /static/images/retencao-dados.png
-date: "2026-08-24"
+date: "2026-07-26"
 ---
 
 Antes desta mudança, qualquer sessão ou token de verificação que vencia ficava no banco para sempre.

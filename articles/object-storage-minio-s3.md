@@ -3,7 +3,7 @@ title: Matamos o endpoint genérico de upload. Cada arquivo tem seu próprio ris
 description: "Como estruturamos object storage com MinIO e S3: por que abandonamos um endpoint único de upload e passamos a tratar avatar, capa de projeto e currículo como três decisões de risco diferentes."
 slug: object-storage-minio-s3
 image: /static/images/object-storage-minio-s3.png
-date: "2026-08-06"
+date: "2026-07-12"
 ---
 
 Existia, em algum momento, um endpoint genérico de upload. Um bucket único, sem autenticação, recebendo conteúdo em JSON.

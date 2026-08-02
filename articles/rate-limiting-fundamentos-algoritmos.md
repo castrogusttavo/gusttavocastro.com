@@ -3,7 +3,7 @@ title: Token bucket ou sliding window? A pergunta certa não é qual algoritmo. 
 description: "Fixed window, sliding window, token bucket e leaky bucket resolvem problemas diferentes disfarçados do mesmo nome. Um guia de quando cada um faz sentido, e qual deles realmente está por trás do rate limit que já publicamos aqui."
 slug: rate-limiting-fundamentos-algoritmos
 image: /static/images/rate-limiting-algoritmos.png
-date: "2026-08-13"
+date: "2026-07-18"
 ---
 
 Quando implementamos rate limit em auth, e-mail e API, escolhemos biblioteca e política sem nunca nomear o algoritmo por trás.

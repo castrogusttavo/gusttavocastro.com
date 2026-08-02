@@ -3,7 +3,7 @@ title: Antes de construir um agente, tente resolver com uma chamada só
 description: "IA deixou de ser experimento e virou parte séria do roadmap. Um mapa prático de LLM engineering: por que a maioria dos problemas não precisa de agente, por que RAG é problema de busca antes de ser de IA, e o que muda com modelos que seguem instrução mais literalmente."
 slug: llm-engineering-agentes-rag-prompt
 image: /static/images/llm-engineering.png
-date: "2026-08-31"
+date: "2026-08-01"
 ---
 
 IA deixou de ser experimento de fim de semana e virou parte do que estamos construindo de verdade. Isso muda o padrão de rigor.

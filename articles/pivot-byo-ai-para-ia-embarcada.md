@@ -3,7 +3,7 @@ title: Vendi "traga sua própria IA" por semanas. Eu tinha a resposta certa pra 
 description: "Por que revertemos a tese de BYO-AI do Nexo para IA embarcada — e o que essa reversão pública me ensinou sobre testar uma tese de produto contra os próprios valores antes de construir em cima dela."
 slug: pivot-byo-ai-para-ia-embarcada
 image: /static/images/pivot-byo-ai.png
-date: "2026-09-03"
+date: "2026-08-03"
 ---
 
 Por semanas, o discurso de venda do Nexo foi: traga sua própria IA. Conecte a conta que você já paga. Não cobre de você duas vezes pela mesma coisa.

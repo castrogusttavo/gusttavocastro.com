@@ -3,7 +3,7 @@ title: Before you build an agent, try solving it with one call
 description: "AI stopped being a weekend experiment and became a serious part of the roadmap. A practical map of LLM engineering: why most problems don't need an agent, why RAG is a search problem before it's an AI problem, and what changes with models that follow instructions more literally."
 slug: llm-engineering-agents-rag-prompts
 image: /static/images/llm-engineering.png
-date: "2026-08-31"
+date: "2026-08-02"
 ---
 
 AI stopped being a weekend experiment and became part of what we're actually building. That changes the standard of rigor.
